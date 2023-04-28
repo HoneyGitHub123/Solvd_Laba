@@ -1,0 +1,1170 @@
+2023-04-27 10:45:32 INFO  [Main] Hello
+2023-04-27 10:45:32 DEBUG [Main] Hello
+2023-04-27 11:09:16 INFO  [Main] Loaded static block
+2023-04-27 11:09:16 INFO  [Main] Displayed Airport details
+2023-04-27 11:09:16 WARN  [Main] PassportNumberException caught
+2023-04-27 11:09:16 WARN  [Main] LuggageCountException caught
+2023-04-27 11:13:29 INFO  [Main] Loaded static block
+2023-04-27 11:13:29 INFO  [Main] Displayed Airport details
+2023-04-27 11:13:29 DEBUG [Main] Checking passport number
+2023-04-27 11:13:29 WARN  [Main] PassportNumberException caught
+2023-04-27 11:13:29 WARN  [Main] LuggageCountException caught
+2023-04-27 11:15:49 INFO  [Main] Loaded static block
+2023-04-27 11:15:49 INFO  [Main] Displayed Airport details
+2023-04-27 11:15:49 DEBUG [Main] Checking passport number
+2023-04-27 11:15:49 WARN  [Main] PassportNumberException caught
+2023-04-27 11:15:49 ERROR [Main] Invalid Passport number
+2023-04-27 11:15:49 INFO  [Main] Checking luggage count
+2023-04-27 11:15:49 WARN  [Main] LuggageCountException caught
+2023-04-27 11:15:49 ERROR [Main] Invalid luggage count
+2023-04-27 11:48:13 INFO  [Main] Static block executed
+2023-04-27 11:48:13 INFO  [Main] Displayed Airport details
+2023-04-27 11:48:13 DEBUG [Main] Checking passport number
+2023-04-27 11:48:13 WARN  [Main] PassportNumberException caught
+2023-04-27 11:48:13 ERROR [Main] Invalid Passport number
+2023-04-27 11:48:13 INFO  [Main] Checking luggage count
+2023-04-27 11:48:13 WARN  [Main] LuggageCountException caught
+2023-04-27 11:48:13 ERROR [Main] Invalid luggage count
+2023-04-27 11:50:38 INFO  [Main] Static block executed
+2023-04-27 11:50:38 INFO  [Main] Displayed Airport details
+2023-04-27 11:50:38 DEBUG [Main] Checking passport number
+2023-04-27 11:50:38 WARN  [Main] PassportNumberException caught
+2023-04-27 11:50:38 ERROR [Main] Invalid Passport number
+2023-04-27 11:50:38 INFO  [Main] Checking luggage count
+2023-04-27 11:50:38 WARN  [Main] LuggageCountException caught
+2023-04-27 11:50:38 ERROR [Main] Invalid luggage count
+2023-04-27 11:50:38 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 11:54:09 INFO  [Main] Static block executed
+2023-04-27 11:54:09 INFO  [Main] Displayed Airport details
+2023-04-27 11:54:09 DEBUG [Main] Checking passport number
+2023-04-27 11:54:09 WARN  [Main] PassportNumberException caught
+2023-04-27 11:54:09 ERROR [Main] Invalid Passport number
+2023-04-27 11:54:09 INFO  [Main] Checking luggage count
+2023-04-27 11:55:21 INFO  [Main] Static block executed
+2023-04-27 11:55:21 INFO  [Main] Displayed Airport details
+2023-04-27 11:55:21 DEBUG [Main] Checking passport number
+2023-04-27 11:55:21 WARN  [Main] PassportNumberException caught
+2023-04-27 11:55:21 ERROR [Main] Invalid Passport number
+2023-04-27 11:55:21 INFO  [Main] Checking luggage count
+2023-04-27 11:56:19 INFO  [Main] Static block executed
+2023-04-27 11:56:19 INFO  [Main] Displayed Airport details
+2023-04-27 11:56:19 DEBUG [Main] Checking passport number
+2023-04-27 11:56:19 WARN  [Main] PassportNumberException caught
+2023-04-27 11:56:19 ERROR [Main] Invalid Passport number
+2023-04-27 11:56:19 INFO  [Main] Checking luggage count
+2023-04-27 11:56:19 WARN  [Main] LuggageCountException caught
+2023-04-27 11:56:19 ERROR [Main] Invalid luggage count
+2023-04-27 11:56:19 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 11:57:24 INFO  [Main] Static block executed
+2023-04-27 11:57:24 INFO  [Main] Displayed Airport details
+2023-04-27 11:57:24 DEBUG [Main] Checking passport number
+2023-04-27 11:57:24 WARN  [Main] PassportNumberException caught
+2023-04-27 11:57:24 ERROR [Main] Invalid Passport number
+2023-04-27 11:57:24 INFO  [Main] Checking luggage count
+2023-04-27 11:57:24 WARN  [Main] LuggageCountException caught
+2023-04-27 11:57:24 ERROR [Main] Invalid luggage count
+2023-04-27 11:57:24 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 11:59:14 INFO  [Main] Static block executed
+2023-04-27 11:59:14 INFO  [Main] Displayed Airport details
+2023-04-27 11:59:14 DEBUG [Main] Checking passport number
+2023-04-27 11:59:14 WARN  [Main] PassportNumberException caught
+2023-04-27 11:59:14 ERROR [Main] Invalid Passport number
+2023-04-27 11:59:14 INFO  [Main] Checking luggage count
+2023-04-27 11:59:14 WARN  [Main] LuggageCountException caught
+2023-04-27 11:59:14 ERROR [Main] Invalid luggage count
+2023-04-27 11:59:14 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 11:59:57 INFO  [Main] Static block executed
+2023-04-27 11:59:57 INFO  [Main] Displayed Airport details
+2023-04-27 11:59:57 DEBUG [Main] Checking passport number
+2023-04-27 11:59:57 WARN  [Main] PassportNumberException caught
+2023-04-27 11:59:57 ERROR [Main] Invalid Passport number
+2023-04-27 11:59:57 INFO  [Main] Checking luggage count
+2023-04-27 11:59:57 WARN  [Main] LuggageCountException caught
+2023-04-27 11:59:57 ERROR [Main] Invalid luggage count
+2023-04-27 11:59:57 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:05:05 INFO  [Main] Static block executed
+2023-04-27 12:05:05 INFO  [Main] Displayed Airport details
+2023-04-27 12:05:05 DEBUG [Main] Checking passport number
+2023-04-27 12:05:05 WARN  [Main] PassportNumberException caught
+2023-04-27 12:05:05 ERROR [Main] Invalid Passport number
+2023-04-27 12:05:05 INFO  [Main] Checking luggage count
+2023-04-27 12:05:05 WARN  [Main] LuggageCountException caught
+2023-04-27 12:05:05 ERROR [Main] Invalid luggage count
+2023-04-27 12:05:05 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:05:48 INFO  [Main] Static block executed
+2023-04-27 12:05:48 INFO  [Main] Displayed Airport details
+2023-04-27 12:05:48 DEBUG [Main] Checking passport number
+2023-04-27 12:05:48 WARN  [Main] PassportNumberException caught
+2023-04-27 12:05:48 ERROR [Main] Invalid Passport number
+2023-04-27 12:05:48 INFO  [Main] Checking luggage count
+2023-04-27 12:05:48 WARN  [Main] LuggageCountException caught
+2023-04-27 12:05:48 ERROR [Main] Invalid luggage count
+2023-04-27 12:05:48 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:06:54 INFO  [Main] Static block executed
+2023-04-27 12:06:54 INFO  [Main] Displayed Airport details
+2023-04-27 12:06:54 DEBUG [Main] Checking passport number
+2023-04-27 12:06:54 WARN  [Main] PassportNumberException caught
+2023-04-27 12:06:54 ERROR [Main] Invalid Passport number
+2023-04-27 12:06:54 INFO  [Main] Checking luggage count
+2023-04-27 12:06:54 WARN  [Main] LuggageCountException caught
+2023-04-27 12:06:54 ERROR [Main] Invalid luggage count
+2023-04-27 12:06:54 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:08:38 INFO  [Main] Static block executed
+2023-04-27 12:08:38 INFO  [Main] Displayed Airport details
+2023-04-27 12:08:38 DEBUG [Main] Checking passport number
+2023-04-27 12:08:38 WARN  [Main] PassportNumberException caught
+2023-04-27 12:08:38 ERROR [Main] Invalid Passport number
+2023-04-27 12:08:38 INFO  [Main] Checking luggage count
+2023-04-27 12:08:38 WARN  [Main] LuggageCountException caught
+2023-04-27 12:08:38 ERROR [Main] Invalid luggage count
+2023-04-27 12:08:38 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:09:31 INFO  [Main] Static block executed
+2023-04-27 12:09:31 INFO  [Main] Displayed Airport details
+2023-04-27 12:09:31 DEBUG [Main] Checking passport number
+2023-04-27 12:09:31 WARN  [Main] PassportNumberException caught
+2023-04-27 12:09:31 ERROR [Main] Invalid Passport number
+2023-04-27 12:09:31 INFO  [Main] Checking luggage count
+2023-04-27 12:09:31 WARN  [Main] LuggageCountException caught
+2023-04-27 12:09:31 ERROR [Main] Invalid luggage count
+2023-04-27 12:09:31 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:11:21 INFO  [Main] Static block executed
+2023-04-27 12:11:21 INFO  [Main] Displayed Airport details
+2023-04-27 12:11:21 DEBUG [Main] Checking passport number
+2023-04-27 12:11:21 WARN  [Main] PassportNumberException caught
+2023-04-27 12:11:21 ERROR [Main] Invalid Passport number
+2023-04-27 12:11:21 INFO  [Main] Checking luggage count
+2023-04-27 12:11:21 WARN  [Main] LuggageCountException caught
+2023-04-27 12:11:21 ERROR [Main] Invalid luggage count
+2023-04-27 12:11:21 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:17:36 INFO  [Main] Static block executed
+2023-04-27 12:17:36 INFO  [Main] Displayed Airport details
+2023-04-27 12:17:36 DEBUG [Main] Checking passport number
+2023-04-27 12:17:36 WARN  [Main] PassportNumberException caught
+2023-04-27 12:17:36 ERROR [Main] Invalid Passport number
+2023-04-27 12:17:36 INFO  [Main] Checking luggage count
+2023-04-27 12:17:36 WARN  [Main] LuggageCountException caught
+2023-04-27 12:17:36 ERROR [Main] Invalid luggage count
+2023-04-27 12:17:36 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:19:10 INFO  [Main] Static block executed
+2023-04-27 12:19:10 INFO  [Main] Displayed Airport details
+2023-04-27 12:19:10 DEBUG [Main] Checking passport number
+2023-04-27 12:19:10 WARN  [Main] PassportNumberException caught
+2023-04-27 12:19:10 ERROR [Main] Invalid Passport number
+2023-04-27 12:19:10 INFO  [Main] Checking luggage count
+2023-04-27 12:19:10 WARN  [Main] LuggageCountException caught
+2023-04-27 12:19:10 ERROR [Main] Invalid luggage count
+2023-04-27 12:19:10 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:21:11 INFO  [Main] Static block executed
+2023-04-27 12:21:11 INFO  [Main] Displayed Airport details
+2023-04-27 12:21:11 DEBUG [Main] Checking passport number
+2023-04-27 12:21:11 WARN  [Main] PassportNumberException caught
+2023-04-27 12:21:11 ERROR [Main] Invalid Passport number
+2023-04-27 12:21:11 INFO  [Main] Checking luggage count
+2023-04-27 12:21:11 WARN  [Main] LuggageCountException caught
+2023-04-27 12:21:11 ERROR [Main] Invalid luggage count
+2023-04-27 12:21:50 INFO  [Main] Static block executed
+2023-04-27 12:21:50 INFO  [Main] Displayed Airport details
+2023-04-27 12:21:50 DEBUG [Main] Checking passport number
+2023-04-27 12:21:50 WARN  [Main] PassportNumberException caught
+2023-04-27 12:21:50 ERROR [Main] Invalid Passport number
+2023-04-27 12:21:50 INFO  [Main] Checking luggage count
+2023-04-27 12:21:50 WARN  [Main] LuggageCountException caught
+2023-04-27 12:21:50 ERROR [Main] Invalid luggage count
+2023-04-27 12:21:50 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:23:16 INFO  [Main] Static block executed
+2023-04-27 12:23:16 INFO  [Main] Displayed Airport details
+2023-04-27 12:23:16 DEBUG [Main] Checking passport number
+2023-04-27 12:23:16 WARN  [Main] PassportNumberException caught
+2023-04-27 12:23:16 ERROR [Main] Invalid Passport number
+2023-04-27 12:23:16 INFO  [Main] Checking luggage count
+2023-04-27 12:23:16 WARN  [Main] LuggageCountException caught
+2023-04-27 12:23:16 ERROR [Main] Invalid luggage count
+2023-04-27 12:23:16 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:24:01 INFO  [Main] Static block executed
+2023-04-27 12:24:01 INFO  [Main] Displayed Airport details
+2023-04-27 12:24:01 DEBUG [Main] Checking passport number
+2023-04-27 12:24:01 WARN  [Main] PassportNumberException caught
+2023-04-27 12:24:01 ERROR [Main] Invalid Passport number
+2023-04-27 12:24:01 INFO  [Main] Checking luggage count
+2023-04-27 12:24:01 WARN  [Main] LuggageCountException caught
+2023-04-27 12:24:01 ERROR [Main] Invalid luggage count
+2023-04-27 12:24:01 INFO  [Main] Checking salary
+2023-04-27 12:24:01 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 12:26:14 INFO  [Main] Static block executed
+2023-04-27 12:26:14 INFO  [Main] Displayed Airport details
+2023-04-27 12:26:14 DEBUG [Main] Checking passport number
+2023-04-27 12:26:14 WARN  [Main] PassportNumberException caught
+2023-04-27 12:26:14 ERROR [Main] Invalid Passport number
+2023-04-27 12:26:14 INFO  [Main] Checking luggage count
+2023-04-27 12:26:14 WARN  [Main] LuggageCountException caught
+2023-04-27 12:26:14 ERROR [Main] Invalid luggage count
+2023-04-27 12:26:14 INFO  [Main] Checking salary
+2023-04-27 12:28:06 INFO  [Main] Static block executed
+2023-04-27 12:28:06 INFO  [Main] Displayed Airport details
+2023-04-27 12:28:06 DEBUG [Main] Checking passport number
+2023-04-27 12:28:06 WARN  [Main] PassportNumberException caught
+2023-04-27 12:28:06 ERROR [Main] Invalid Passport number
+2023-04-27 12:28:06 INFO  [Main] Checking luggage count
+2023-04-27 12:28:06 WARN  [Main] LuggageCountException caught
+2023-04-27 12:28:06 ERROR [Main] Invalid luggage count
+2023-04-27 12:28:06 INFO  [Main] Checking salary
+2023-04-27 14:00:03 INFO  [Main] Static block executed
+2023-04-27 14:00:03 INFO  [Main] Displayed Airport details
+2023-04-27 14:00:03 DEBUG [Main] Checking passport number
+2023-04-27 14:00:03 WARN  [Main] PassportNumberException caught
+2023-04-27 14:00:03 ERROR [Main] Invalid Passport number
+2023-04-27 14:00:03 INFO  [Main] Checking luggage count
+2023-04-27 14:00:03 WARN  [Main] LuggageCountException caught
+2023-04-27 14:00:03 ERROR [Main] Invalid luggage count
+2023-04-27 14:00:03 INFO  [Main] Checking salary
+2023-04-27 14:00:08 INFO  [Main] Static block executed
+2023-04-27 14:00:08 INFO  [Main] Displayed Airport details
+2023-04-27 14:00:08 DEBUG [Main] Checking passport number
+2023-04-27 14:00:08 WARN  [Main] PassportNumberException caught
+2023-04-27 14:00:08 ERROR [Main] Invalid Passport number
+2023-04-27 14:00:08 INFO  [Main] Checking luggage count
+2023-04-27 14:00:08 WARN  [Main] LuggageCountException caught
+2023-04-27 14:00:08 ERROR [Main] Invalid luggage count
+2023-04-27 14:00:08 INFO  [Main] Checking salary
+2023-04-27 14:01:53 INFO  [Main] Static block executed
+2023-04-27 14:01:53 INFO  [Main] Displayed Airport details
+2023-04-27 14:01:53 DEBUG [Main] Checking passport number
+2023-04-27 14:01:53 WARN  [Main] PassportNumberException caught
+2023-04-27 14:01:53 ERROR [Main] Invalid Passport number
+2023-04-27 14:01:53 INFO  [Main] Checking luggage count
+2023-04-27 14:01:53 WARN  [Main] LuggageCountException caught
+2023-04-27 14:01:53 ERROR [Main] Invalid luggage count
+2023-04-27 14:01:53 INFO  [Main] Checking salary
+2023-04-27 14:01:53 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:03:48 INFO  [Main] Static block executed
+2023-04-27 14:03:48 INFO  [Main] Displayed Airport details
+2023-04-27 14:03:48 DEBUG [Main] Checking passport number
+2023-04-27 14:03:48 WARN  [Main] PassportNumberException caught
+2023-04-27 14:03:48 ERROR [Main] Invalid Passport number
+2023-04-27 14:03:49 INFO  [Main] Checking luggage count
+2023-04-27 14:03:49 WARN  [Main] LuggageCountException caught
+2023-04-27 14:03:49 ERROR [Main] Invalid luggage count
+2023-04-27 14:03:49 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:06:02 INFO  [Main] Static block executed
+2023-04-27 14:06:02 INFO  [Main] Displayed Airport details
+2023-04-27 14:06:02 DEBUG [Main] Checking passport number
+2023-04-27 14:06:02 WARN  [Main] PassportNumberException caught
+2023-04-27 14:06:02 ERROR [Main] Invalid Passport number
+2023-04-27 14:06:02 INFO  [Main] Checking luggage count
+2023-04-27 14:06:02 WARN  [Main] LuggageCountException caught
+2023-04-27 14:06:02 ERROR [Main] Invalid luggage count
+2023-04-27 14:06:02 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:06:02 INFO  [Main] Checking salary
+2023-04-27 14:16:46 INFO  [Main] Static block executed
+2023-04-27 14:16:46 INFO  [Main] Displayed Airport details
+2023-04-27 14:16:46 DEBUG [Main] Checking passport number
+2023-04-27 14:16:46 WARN  [Main] PassportNumberException caught
+2023-04-27 14:16:46 ERROR [Main] Invalid Passport number
+2023-04-27 14:16:46 INFO  [Main] Checking luggage count
+2023-04-27 14:16:46 WARN  [Main] LuggageCountException caught
+2023-04-27 14:16:46 ERROR [Main] Invalid luggage count
+2023-04-27 14:16:46 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:16:46 INFO  [Main] Checking salary
+2023-04-27 14:20:04 INFO  [Main] Static block executed
+2023-04-27 14:20:04 INFO  [Main] Displayed Airport details
+2023-04-27 14:20:04 DEBUG [Main] Checking passport number
+2023-04-27 14:20:04 WARN  [Main] PassportNumberException caught
+2023-04-27 14:20:04 ERROR [Main] Invalid Passport number
+2023-04-27 14:20:04 INFO  [Main] Checking luggage count
+2023-04-27 14:20:04 WARN  [Main] LuggageCountException caught
+2023-04-27 14:20:04 ERROR [Main] Invalid luggage count
+2023-04-27 14:20:04 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:20:04 INFO  [Main] Checking salary
+2023-04-27 14:21:17 INFO  [Main] Static block executed
+2023-04-27 14:21:17 INFO  [Main] Displayed Airport details
+2023-04-27 14:21:17 DEBUG [Main] Checking passport number
+2023-04-27 14:21:17 WARN  [Main] PassportNumberException caught
+2023-04-27 14:21:17 ERROR [Main] Invalid Passport number
+2023-04-27 14:21:17 INFO  [Main] Checking luggage count
+2023-04-27 14:21:17 WARN  [Main] LuggageCountException caught
+2023-04-27 14:21:17 ERROR [Main] Invalid luggage count
+2023-04-27 14:21:17 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:21:17 INFO  [Main] Checking salary
+2023-04-27 14:22:04 INFO  [Main] Static block executed
+2023-04-27 14:22:04 INFO  [Main] Displayed Airport details
+2023-04-27 14:22:04 DEBUG [Main] Checking passport number
+2023-04-27 14:22:04 WARN  [Main] PassportNumberException caught
+2023-04-27 14:22:04 ERROR [Main] Invalid Passport number
+2023-04-27 14:22:04 INFO  [Main] Checking luggage count
+2023-04-27 14:22:04 WARN  [Main] LuggageCountException caught
+2023-04-27 14:22:04 ERROR [Main] Invalid luggage count
+2023-04-27 14:22:04 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:22:04 INFO  [Main] Checking salary
+2023-04-27 14:22:42 INFO  [Main] Static block executed
+2023-04-27 14:22:42 INFO  [Main] Displayed Airport details
+2023-04-27 14:22:42 DEBUG [Main] Checking passport number
+2023-04-27 14:22:42 WARN  [Main] PassportNumberException caught
+2023-04-27 14:22:42 ERROR [Main] Invalid Passport number
+2023-04-27 14:22:42 INFO  [Main] Checking luggage count
+2023-04-27 14:22:42 WARN  [Main] LuggageCountException caught
+2023-04-27 14:22:42 ERROR [Main] Invalid luggage count
+2023-04-27 14:22:42 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:22:42 INFO  [Main] Checking salary
+2023-04-27 14:25:55 INFO  [Main] Static block executed
+2023-04-27 14:25:55 INFO  [Main] Displayed Airport details
+2023-04-27 14:25:55 INFO  [Main] try-catch custom Exception
+2023-04-27 14:25:55 DEBUG [Main] Checking passport number
+2023-04-27 14:25:55 WARN  [Main] PassportNumberException caught
+2023-04-27 14:25:55 ERROR [Main] Invalid Passport number
+2023-04-27 14:25:56 INFO  [Main] try-catch custom Exception
+2023-04-27 14:25:56 INFO  [Main] Checking luggage count
+2023-04-27 14:25:56 WARN  [Main] LuggageCountException caught
+2023-04-27 14:25:56 ERROR [Main] Invalid luggage count
+2023-04-27 14:25:56 INFO  [Main] try-catch custom Exception
+2023-04-27 14:25:56 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:25:56 INFO  [Main] Checking salary
+2023-04-27 14:27:13 INFO  [Main] Static block executed
+2023-04-27 14:27:13 INFO  [Main] Displayed Airport details
+2023-04-27 14:27:13 INFO  [Main] try-catch custom Exception
+2023-04-27 14:27:13 DEBUG [Main] Checking passport number
+2023-04-27 14:27:13 WARN  [Main] PassportNumberException caught
+2023-04-27 14:27:13 ERROR [Main] Invalid Passport number
+2023-04-27 14:27:13 INFO  [Main] try-catch custom Exception
+2023-04-27 14:27:13 INFO  [Main] Checking luggage count
+2023-04-27 14:27:13 WARN  [Main] LuggageCountException caught
+2023-04-27 14:27:13 ERROR [Main] Invalid luggage count
+2023-04-27 14:27:13 INFO  [Main] try-catch custom Exception
+2023-04-27 14:27:13 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:27:13 INFO  [Main] Checking salary
+2023-04-27 14:29:25 INFO  [Main] Static block executed
+2023-04-27 14:29:25 INFO  [Main] Displayed Airport details
+2023-04-27 14:29:25 INFO  [Main] try-catch custom Exception
+2023-04-27 14:29:25 DEBUG [Main] Checking passport number
+2023-04-27 14:29:25 WARN  [Main] PassportNumberException caught
+2023-04-27 14:29:25 ERROR [Main] Invalid Passport number
+2023-04-27 14:29:25 INFO  [Main] try-catch custom Exception
+2023-04-27 14:29:25 INFO  [Main] Checking luggage count
+2023-04-27 14:29:25 WARN  [Main] LuggageCountException caught
+2023-04-27 14:29:25 ERROR [Main] Invalid luggage count
+2023-04-27 14:29:25 INFO  [Main] try-catch custom Exception
+2023-04-27 14:29:25 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 14:29:25 INFO  [Main] Checking salary
+2023-04-27 15:25:50 INFO  [Main] Static block executed
+2023-04-27 15:25:50 INFO  [Main] Displayed Airport details
+2023-04-27 15:25:50 INFO  [Main] try-catch custom Exception
+2023-04-27 15:25:50 DEBUG [Main] Checking passport number
+2023-04-27 15:25:50 WARN  [Main] PassportNumberException caught
+2023-04-27 15:25:50 ERROR [Main] Invalid Passport number
+2023-04-27 15:25:50 INFO  [Main] try-catch custom Exception
+2023-04-27 15:25:50 INFO  [Main] Checking luggage count
+2023-04-27 15:25:50 WARN  [Main] LuggageCountException caught
+2023-04-27 15:25:50 ERROR [Main] Invalid luggage count
+2023-04-27 15:25:50 INFO  [Main] try-catch custom Exception
+2023-04-27 15:25:50 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 15:25:50 INFO  [Main] Checking salary
+2023-04-27 15:28:37 INFO  [Main] Static block executed
+2023-04-27 15:28:37 INFO  [Main] Displayed Airport details
+2023-04-27 15:28:37 INFO  [Main] try-catch custom Exception
+2023-04-27 15:28:37 DEBUG [Main] Checking passport number
+2023-04-27 15:28:37 WARN  [Main] PassportNumberException caught
+2023-04-27 15:28:37 ERROR [Main] Invalid Passport number
+2023-04-27 15:28:37 INFO  [Main] try-catch custom Exception
+2023-04-27 15:28:37 INFO  [Main] Checking luggage count
+2023-04-27 15:28:37 WARN  [Main] LuggageCountException caught
+2023-04-27 15:28:37 ERROR [Main] Invalid luggage count
+2023-04-27 15:28:37 INFO  [Main] try-catch custom Exception
+2023-04-27 15:28:37 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 15:28:37 INFO  [Main] Checking salary
+2023-04-27 15:56:41 INFO  [Main] Static block executed
+2023-04-27 15:56:41 INFO  [Main] Displayed Airport details
+2023-04-27 15:56:41 INFO  [Main] try-catch custom Exception
+2023-04-27 15:56:41 DEBUG [Main] Checking passport number
+2023-04-27 15:56:41 WARN  [Main] PassportNumberException caught
+2023-04-27 15:56:41 ERROR [Main] Invalid Passport number
+2023-04-27 15:56:41 INFO  [Main] try-catch custom Exception
+2023-04-27 15:56:41 INFO  [Main] Checking luggage count
+2023-04-27 15:56:41 WARN  [Main] LuggageCountException caught
+2023-04-27 15:56:41 ERROR [Main] Invalid luggage count
+2023-04-27 15:56:41 INFO  [Main] try-catch custom Exception
+2023-04-27 15:56:41 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 15:56:41 INFO  [Main] Checking salary
+2023-04-27 15:58:27 INFO  [Main] Static block executed
+2023-04-27 15:58:27 INFO  [Main] Displayed Airport details
+2023-04-27 15:58:27 INFO  [Main] try-catch custom Exception
+2023-04-27 15:58:27 DEBUG [Main] Checking passport number
+2023-04-27 15:58:27 WARN  [Main] PassportNumberException caught
+2023-04-27 15:58:27 ERROR [Main] Invalid Passport number
+2023-04-27 15:58:27 INFO  [Main] try-catch custom Exception
+2023-04-27 15:58:27 INFO  [Main] Checking luggage count
+2023-04-27 15:58:27 WARN  [Main] LuggageCountException caught
+2023-04-27 15:58:27 ERROR [Main] Invalid luggage count
+2023-04-27 15:58:27 INFO  [Main] try-catch custom Exception
+2023-04-27 15:58:27 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 15:58:27 INFO  [Main] Checking salary
+2023-04-27 15:59:06 INFO  [Main] Static block executed
+2023-04-27 15:59:06 INFO  [Main] Displayed Airport details
+2023-04-27 15:59:06 INFO  [Main] try-catch custom Exception
+2023-04-27 15:59:06 DEBUG [Main] Checking passport number
+2023-04-27 15:59:06 WARN  [Main] PassportNumberException caught
+2023-04-27 15:59:06 ERROR [Main] Invalid Passport number
+2023-04-27 15:59:06 INFO  [Main] try-catch custom Exception
+2023-04-27 15:59:06 INFO  [Main] Checking luggage count
+2023-04-27 15:59:06 WARN  [Main] LuggageCountException caught
+2023-04-27 15:59:06 ERROR [Main] Invalid luggage count
+2023-04-27 15:59:06 INFO  [Main] try-catch custom Exception
+2023-04-27 15:59:06 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 15:59:06 INFO  [Main] Checking salary
+2023-04-27 15:59:56 INFO  [Main] Static block executed
+2023-04-27 15:59:56 INFO  [Main] Displayed Airport details
+2023-04-27 15:59:56 INFO  [Main] try-catch custom Exception
+2023-04-27 15:59:56 DEBUG [Main] Checking passport number
+2023-04-27 15:59:56 WARN  [Main] PassportNumberException caught
+2023-04-27 15:59:56 ERROR [Main] Invalid Passport number
+2023-04-27 15:59:56 INFO  [Main] try-catch custom Exception
+2023-04-27 15:59:56 INFO  [Main] Checking luggage count
+2023-04-27 15:59:56 WARN  [Main] LuggageCountException caught
+2023-04-27 15:59:56 ERROR [Main] Invalid luggage count
+2023-04-27 15:59:56 INFO  [Main] try-catch custom Exception
+2023-04-27 15:59:56 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 15:59:56 INFO  [Main] Checking salary
+2023-04-27 18:03:27 INFO  [Main] Static block executed
+2023-04-27 18:03:27 INFO  [Main] Displayed Airport details
+2023-04-27 18:03:27 INFO  [Main] try-catch custom Exception
+2023-04-27 18:03:27 DEBUG [Main] Checking passport number
+2023-04-27 18:03:27 WARN  [Main] PassportNumberException caught
+2023-04-27 18:03:27 ERROR [Main] Invalid Passport number
+2023-04-27 18:03:27 INFO  [Main] try-catch custom Exception
+2023-04-27 18:03:27 INFO  [Main] Checking luggage count
+2023-04-27 18:03:27 WARN  [Main] LuggageCountException caught
+2023-04-27 18:03:27 ERROR [Main] Invalid luggage count
+2023-04-27 18:03:27 INFO  [Main] try-catch custom Exception
+2023-04-27 18:03:27 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 18:03:27 INFO  [Main] Checking salary
+2023-04-27 18:05:23 INFO  [Main] Static block executed
+2023-04-27 18:05:23 INFO  [Main] Displayed Airport details
+2023-04-27 18:05:23 INFO  [Main] try-catch custom Exception
+2023-04-27 18:05:23 DEBUG [Main] Checking passport number
+2023-04-27 18:05:23 WARN  [Main] PassportNumberException caught
+2023-04-27 18:05:23 ERROR [Main] Invalid Passport number
+2023-04-27 18:05:23 INFO  [Main] try-catch custom Exception
+2023-04-27 18:05:23 INFO  [Main] Checking luggage count
+2023-04-27 18:05:23 WARN  [Main] LuggageCountException caught
+2023-04-27 18:05:23 ERROR [Main] Invalid luggage count
+2023-04-27 18:05:23 INFO  [Main] try-catch custom Exception
+2023-04-27 18:05:23 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 18:05:23 INFO  [Main] Checking salary
+2023-04-27 18:08:54 INFO  [Main] Static block executed
+2023-04-27 18:08:54 INFO  [Main] Displayed Airport details
+2023-04-27 18:08:55 INFO  [Main] try-catch custom Exception
+2023-04-27 18:08:55 DEBUG [Main] Checking passport number
+2023-04-27 18:08:55 WARN  [Main] PassportNumberException caught
+2023-04-27 18:08:55 ERROR [Main] Invalid Passport number
+2023-04-27 18:08:55 INFO  [Main] try-catch custom Exception
+2023-04-27 18:08:55 INFO  [Main] Checking luggage count
+2023-04-27 18:08:55 WARN  [Main] LuggageCountException caught
+2023-04-27 18:08:55 ERROR [Main] Invalid luggage count
+2023-04-27 18:08:55 INFO  [Main] try-catch custom Exception
+2023-04-27 18:08:55 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 18:08:55 INFO  [Main] Checking salary
+2023-04-27 18:09:23 INFO  [Main] Static block executed
+2023-04-27 18:09:23 INFO  [Main] Displayed Airport details
+2023-04-27 18:09:23 INFO  [Main] try-catch custom Exception
+2023-04-27 18:09:23 DEBUG [Main] Checking passport number
+2023-04-27 18:09:23 WARN  [Main] PassportNumberException caught
+2023-04-27 18:09:23 ERROR [Main] Invalid Passport number
+2023-04-27 18:09:23 INFO  [Main] try-catch custom Exception
+2023-04-27 18:09:23 INFO  [Main] Checking luggage count
+2023-04-27 18:09:23 WARN  [Main] LuggageCountException caught
+2023-04-27 18:09:23 ERROR [Main] Invalid luggage count
+2023-04-27 18:09:23 INFO  [Main] try-catch custom Exception
+2023-04-27 18:09:23 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 18:09:23 INFO  [Main] Checking salary
+2023-04-27 18:11:22 INFO  [Main] Static block executed
+2023-04-27 18:11:22 INFO  [Main] Displayed Airport details
+2023-04-27 18:11:22 INFO  [Main] try-catch custom Exception
+2023-04-27 18:11:22 DEBUG [Main] Checking passport number
+2023-04-27 18:11:22 WARN  [Main] PassportNumberException caught
+2023-04-27 18:11:22 ERROR [Main] Invalid Passport number
+2023-04-27 18:11:22 INFO  [Main] try-catch custom Exception
+2023-04-27 18:11:22 INFO  [Main] Checking luggage count
+2023-04-27 18:11:22 WARN  [Main] LuggageCountException caught
+2023-04-27 18:11:22 ERROR [Main] Invalid luggage count
+2023-04-27 18:11:22 INFO  [Main] try-catch custom Exception
+2023-04-27 18:11:22 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 18:11:22 INFO  [Main] Checking salary
+2023-04-27 18:20:34 INFO  [Main] Static block executed
+2023-04-27 18:20:34 INFO  [Main] Displayed Airport details
+2023-04-27 18:20:34 INFO  [Main] try-catch custom Exception
+2023-04-27 18:20:34 DEBUG [Main] Checking passport number
+2023-04-27 18:20:34 WARN  [Main] PassportNumberException caught
+2023-04-27 18:20:34 ERROR [Main] Invalid Passport number
+2023-04-27 18:20:34 INFO  [Main] try-catch custom Exception
+2023-04-27 18:20:34 INFO  [Main] Checking luggage count
+2023-04-27 18:20:34 WARN  [Main] LuggageCountException caught
+2023-04-27 18:20:34 ERROR [Main] Invalid luggage count
+2023-04-27 18:20:34 INFO  [Main] try-catch custom Exception
+2023-04-27 18:20:34 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 18:20:34 INFO  [Main] Checking salary
+2023-04-27 19:48:23 INFO  [Main] Static block executed
+2023-04-27 19:48:23 INFO  [Main] Displayed Airport details
+2023-04-27 19:48:23 INFO  [Main] try-catch custom Exception
+2023-04-27 19:48:23 DEBUG [Main] Checking passport number
+2023-04-27 19:48:23 WARN  [Main] PassportNumberException caught
+2023-04-27 19:48:23 ERROR [Main] Invalid Passport number
+2023-04-27 19:48:23 INFO  [Main] try-catch custom Exception
+2023-04-27 19:48:23 INFO  [Main] Checking luggage count
+2023-04-27 19:48:23 WARN  [Main] LuggageCountException caught
+2023-04-27 19:48:23 ERROR [Main] Invalid luggage count
+2023-04-27 19:48:23 INFO  [Main] try-catch custom Exception
+2023-04-27 19:48:23 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:48:23 INFO  [Main] Checking salary
+2023-04-27 19:49:57 INFO  [Main] Static block executed
+2023-04-27 19:49:57 INFO  [Main] Displayed Airport details
+2023-04-27 19:49:57 INFO  [Main] try-catch custom Exception
+2023-04-27 19:49:57 DEBUG [Main] Checking passport number
+2023-04-27 19:49:57 WARN  [Main] PassportNumberException caught
+2023-04-27 19:49:57 ERROR [Main] Invalid Passport number
+2023-04-27 19:49:57 INFO  [Main] try-catch custom Exception
+2023-04-27 19:49:57 INFO  [Main] Checking luggage count
+2023-04-27 19:49:57 WARN  [Main] LuggageCountException caught
+2023-04-27 19:49:57 ERROR [Main] Invalid luggage count
+2023-04-27 19:49:57 INFO  [Main] try-catch custom Exception
+2023-04-27 19:49:57 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:49:57 INFO  [Main] Checking salary
+2023-04-27 19:50:09 INFO  [Main] Static block executed
+2023-04-27 19:50:09 INFO  [Main] Displayed Airport details
+2023-04-27 19:50:10 INFO  [Main] try-catch custom Exception
+2023-04-27 19:50:10 DEBUG [Main] Checking passport number
+2023-04-27 19:50:10 WARN  [Main] PassportNumberException caught
+2023-04-27 19:50:10 ERROR [Main] Invalid Passport number
+2023-04-27 19:50:10 INFO  [Main] try-catch custom Exception
+2023-04-27 19:50:10 INFO  [Main] Checking luggage count
+2023-04-27 19:50:10 WARN  [Main] LuggageCountException caught
+2023-04-27 19:50:10 ERROR [Main] Invalid luggage count
+2023-04-27 19:50:10 INFO  [Main] try-catch custom Exception
+2023-04-27 19:50:10 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:50:10 INFO  [Main] Checking salary
+2023-04-27 19:52:02 INFO  [Main] Static block executed
+2023-04-27 19:52:02 INFO  [Main] Displayed Airport details
+2023-04-27 19:52:02 INFO  [Main] try-catch custom Exception
+2023-04-27 19:52:02 DEBUG [Main] Checking passport number
+2023-04-27 19:52:02 WARN  [Main] PassportNumberException caught
+2023-04-27 19:52:02 ERROR [Main] Invalid Passport number
+2023-04-27 19:52:02 INFO  [Main] try-catch custom Exception
+2023-04-27 19:52:02 INFO  [Main] Checking luggage count
+2023-04-27 19:52:02 WARN  [Main] LuggageCountException caught
+2023-04-27 19:52:02 ERROR [Main] Invalid luggage count
+2023-04-27 19:52:02 INFO  [Main] try-catch custom Exception
+2023-04-27 19:52:02 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:52:02 INFO  [Main] Checking salary
+2023-04-27 19:53:48 INFO  [Main] Static block executed
+2023-04-27 19:53:48 INFO  [Main] Displayed Airport details
+2023-04-27 19:53:48 INFO  [Main] try-catch custom Exception
+2023-04-27 19:53:48 DEBUG [Main] Checking passport number
+2023-04-27 19:53:48 WARN  [Main] PassportNumberException caught
+2023-04-27 19:53:48 ERROR [Main] Invalid Passport number
+2023-04-27 19:53:48 INFO  [Main] try-catch custom Exception
+2023-04-27 19:53:48 INFO  [Main] Checking luggage count
+2023-04-27 19:53:48 WARN  [Main] LuggageCountException caught
+2023-04-27 19:53:48 ERROR [Main] Invalid luggage count
+2023-04-27 19:53:48 INFO  [Main] try-catch custom Exception
+2023-04-27 19:53:48 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:53:48 INFO  [Main] Checking salary
+2023-04-27 19:54:58 INFO  [Main] Static block executed
+2023-04-27 19:54:58 INFO  [Main] Displayed Airport details
+2023-04-27 19:54:58 INFO  [Main] try-catch custom Exception
+2023-04-27 19:54:58 DEBUG [Main] Checking passport number
+2023-04-27 19:54:58 WARN  [Main] PassportNumberException caught
+2023-04-27 19:54:58 ERROR [Main] Invalid Passport number
+2023-04-27 19:54:58 INFO  [Main] try-catch custom Exception
+2023-04-27 19:54:58 INFO  [Main] Checking luggage count
+2023-04-27 19:54:58 WARN  [Main] LuggageCountException caught
+2023-04-27 19:54:58 ERROR [Main] Invalid luggage count
+2023-04-27 19:54:58 INFO  [Main] try-catch custom Exception
+2023-04-27 19:54:58 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:54:58 INFO  [Main] Checking salary
+2023-04-27 19:55:31 INFO  [Main] Static block executed
+2023-04-27 19:55:31 INFO  [Main] Displayed Airport details
+2023-04-27 19:55:31 INFO  [Main] try-catch custom Exception
+2023-04-27 19:55:31 DEBUG [Main] Checking passport number
+2023-04-27 19:55:31 WARN  [Main] PassportNumberException caught
+2023-04-27 19:55:31 ERROR [Main] Invalid Passport number
+2023-04-27 19:55:31 INFO  [Main] try-catch custom Exception
+2023-04-27 19:55:31 INFO  [Main] Checking luggage count
+2023-04-27 19:55:31 WARN  [Main] LuggageCountException caught
+2023-04-27 19:55:31 ERROR [Main] Invalid luggage count
+2023-04-27 19:55:31 INFO  [Main] try-catch custom Exception
+2023-04-27 19:55:31 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:55:31 INFO  [Main] Checking salary
+2023-04-27 19:56:00 INFO  [Main] Static block executed
+2023-04-27 19:56:00 INFO  [Main] Displayed Airport details
+2023-04-27 19:56:00 INFO  [Main] try-catch custom Exception
+2023-04-27 19:56:00 DEBUG [Main] Checking passport number
+2023-04-27 19:56:00 WARN  [Main] PassportNumberException caught
+2023-04-27 19:56:00 ERROR [Main] Invalid Passport number
+2023-04-27 19:56:00 INFO  [Main] try-catch custom Exception
+2023-04-27 19:56:00 INFO  [Main] Checking luggage count
+2023-04-27 19:56:00 WARN  [Main] LuggageCountException caught
+2023-04-27 19:56:00 ERROR [Main] Invalid luggage count
+2023-04-27 19:56:00 INFO  [Main] try-catch custom Exception
+2023-04-27 19:56:00 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:56:00 INFO  [Main] Checking salary
+2023-04-27 19:56:59 INFO  [Main] Static block executed
+2023-04-27 19:56:59 INFO  [Main] Displayed Airport details
+2023-04-27 19:56:59 INFO  [Main] try-catch custom Exception
+2023-04-27 19:56:59 DEBUG [Main] Checking passport number
+2023-04-27 19:56:59 WARN  [Main] PassportNumberException caught
+2023-04-27 19:56:59 ERROR [Main] Invalid Passport number
+2023-04-27 19:56:59 INFO  [Main] try-catch custom Exception
+2023-04-27 19:56:59 INFO  [Main] Checking luggage count
+2023-04-27 19:56:59 WARN  [Main] LuggageCountException caught
+2023-04-27 19:56:59 ERROR [Main] Invalid luggage count
+2023-04-27 19:56:59 INFO  [Main] try-catch custom Exception
+2023-04-27 19:56:59 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:56:59 INFO  [Main] Checking salary
+2023-04-27 19:57:05 INFO  [Main] Static block executed
+2023-04-27 19:57:05 INFO  [Main] Displayed Airport details
+2023-04-27 19:57:05 INFO  [Main] try-catch custom Exception
+2023-04-27 19:57:05 DEBUG [Main] Checking passport number
+2023-04-27 19:57:05 WARN  [Main] PassportNumberException caught
+2023-04-27 19:57:05 ERROR [Main] Invalid Passport number
+2023-04-27 19:57:06 INFO  [Main] try-catch custom Exception
+2023-04-27 19:57:06 INFO  [Main] Checking luggage count
+2023-04-27 19:57:06 WARN  [Main] LuggageCountException caught
+2023-04-27 19:57:06 ERROR [Main] Invalid luggage count
+2023-04-27 19:57:06 INFO  [Main] try-catch custom Exception
+2023-04-27 19:57:06 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:57:06 INFO  [Main] Checking salary
+2023-04-27 19:57:49 INFO  [Main] Static block executed
+2023-04-27 19:57:49 INFO  [Main] Displayed Airport details
+2023-04-27 19:57:49 INFO  [Main] try-catch custom Exception
+2023-04-27 19:57:49 DEBUG [Main] Checking passport number
+2023-04-27 19:57:49 WARN  [Main] PassportNumberException caught
+2023-04-27 19:57:49 ERROR [Main] Invalid Passport number
+2023-04-27 19:57:49 INFO  [Main] try-catch custom Exception
+2023-04-27 19:57:49 INFO  [Main] Checking luggage count
+2023-04-27 19:57:49 WARN  [Main] LuggageCountException caught
+2023-04-27 19:57:49 ERROR [Main] Invalid luggage count
+2023-04-27 19:57:49 INFO  [Main] try-catch custom Exception
+2023-04-27 19:57:49 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:57:49 INFO  [Main] Checking salary
+2023-04-27 19:58:11 INFO  [Main] Static block executed
+2023-04-27 19:58:11 INFO  [Main] Displayed Airport details
+2023-04-27 19:58:11 INFO  [Main] try-catch custom Exception
+2023-04-27 19:58:11 DEBUG [Main] Checking passport number
+2023-04-27 19:58:11 WARN  [Main] PassportNumberException caught
+2023-04-27 19:58:11 ERROR [Main] Invalid Passport number
+2023-04-27 19:58:11 INFO  [Main] try-catch custom Exception
+2023-04-27 19:58:11 INFO  [Main] Checking luggage count
+2023-04-27 19:58:11 WARN  [Main] LuggageCountException caught
+2023-04-27 19:58:11 ERROR [Main] Invalid luggage count
+2023-04-27 19:58:11 INFO  [Main] try-catch custom Exception
+2023-04-27 19:58:11 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 19:58:11 INFO  [Main] Checking salary
+2023-04-27 20:14:11 INFO  [Main] Static block executed
+2023-04-27 20:14:11 INFO  [Main] Displayed Airport details
+2023-04-27 20:14:11 INFO  [Main] try-catch custom Exception
+2023-04-27 20:14:11 DEBUG [Main] Checking passport number
+2023-04-27 20:14:11 WARN  [Main] PassportNumberException caught
+2023-04-27 20:14:11 ERROR [Main] Invalid Passport number
+2023-04-27 20:14:11 INFO  [Main] try-catch custom Exception
+2023-04-27 20:14:11 INFO  [Main] Checking luggage count
+2023-04-27 20:14:11 WARN  [Main] LuggageCountException caught
+2023-04-27 20:14:11 ERROR [Main] Invalid luggage count
+2023-04-27 20:14:11 INFO  [Main] try-catch custom Exception
+2023-04-27 20:14:11 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:14:11 INFO  [Main] Checking salary
+2023-04-27 20:19:46 INFO  [Main] Static block executed
+2023-04-27 20:19:46 INFO  [Main] Displayed Airport details
+2023-04-27 20:19:46 INFO  [Main] try-catch custom Exception
+2023-04-27 20:19:46 DEBUG [Main] Checking passport number
+2023-04-27 20:19:46 WARN  [Main] PassportNumberException caught
+2023-04-27 20:19:46 ERROR [Main] Invalid Passport number
+2023-04-27 20:19:46 INFO  [Main] try-catch custom Exception
+2023-04-27 20:19:46 INFO  [Main] Checking luggage count
+2023-04-27 20:19:46 WARN  [Main] LuggageCountException caught
+2023-04-27 20:19:46 ERROR [Main] Invalid luggage count
+2023-04-27 20:19:46 INFO  [Main] try-catch custom Exception
+2023-04-27 20:19:46 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:19:46 INFO  [Main] Checking salary
+2023-04-27 20:21:03 INFO  [Main] Static block executed
+2023-04-27 20:21:03 INFO  [Main] Displayed Airport details
+2023-04-27 20:21:03 INFO  [Main] try-catch custom Exception
+2023-04-27 20:21:03 DEBUG [Main] Checking passport number
+2023-04-27 20:21:03 WARN  [Main] PassportNumberException caught
+2023-04-27 20:21:03 ERROR [Main] Invalid Passport number
+2023-04-27 20:21:03 INFO  [Main] try-catch custom Exception
+2023-04-27 20:21:03 INFO  [Main] Checking luggage count
+2023-04-27 20:21:03 WARN  [Main] LuggageCountException caught
+2023-04-27 20:21:03 ERROR [Main] Invalid luggage count
+2023-04-27 20:21:04 INFO  [Main] try-catch custom Exception
+2023-04-27 20:21:04 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:21:04 INFO  [Main] Checking salary
+2023-04-27 20:22:41 INFO  [Main] Static block executed
+2023-04-27 20:22:41 INFO  [Main] Displayed Airport details
+2023-04-27 20:22:41 INFO  [Main] try-catch custom Exception
+2023-04-27 20:22:41 DEBUG [Main] Checking passport number
+2023-04-27 20:22:41 WARN  [Main] PassportNumberException caught
+2023-04-27 20:22:41 ERROR [Main] Invalid Passport number
+2023-04-27 20:22:41 INFO  [Main] try-catch custom Exception
+2023-04-27 20:22:41 INFO  [Main] Checking luggage count
+2023-04-27 20:22:41 WARN  [Main] LuggageCountException caught
+2023-04-27 20:22:41 ERROR [Main] Invalid luggage count
+2023-04-27 20:22:41 INFO  [Main] try-catch custom Exception
+2023-04-27 20:22:41 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:22:41 INFO  [Main] Checking salary
+2023-04-27 20:23:44 INFO  [Main] Static block executed
+2023-04-27 20:23:44 INFO  [Main] Displayed Airport details
+2023-04-27 20:23:44 INFO  [Main] try-catch custom Exception
+2023-04-27 20:23:44 DEBUG [Main] Checking passport number
+2023-04-27 20:23:44 WARN  [Main] PassportNumberException caught
+2023-04-27 20:23:44 ERROR [Main] Invalid Passport number
+2023-04-27 20:23:44 INFO  [Main] try-catch custom Exception
+2023-04-27 20:23:44 INFO  [Main] Checking luggage count
+2023-04-27 20:23:44 WARN  [Main] LuggageCountException caught
+2023-04-27 20:23:44 ERROR [Main] Invalid luggage count
+2023-04-27 20:23:44 INFO  [Main] try-catch custom Exception
+2023-04-27 20:23:44 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:23:44 INFO  [Main] Checking salary
+2023-04-27 20:24:18 INFO  [Main] Static block executed
+2023-04-27 20:24:18 INFO  [Main] Displayed Airport details
+2023-04-27 20:24:18 INFO  [Main] try-catch custom Exception
+2023-04-27 20:24:18 DEBUG [Main] Checking passport number
+2023-04-27 20:24:18 WARN  [Main] PassportNumberException caught
+2023-04-27 20:24:18 ERROR [Main] Invalid Passport number
+2023-04-27 20:24:18 INFO  [Main] try-catch custom Exception
+2023-04-27 20:24:18 INFO  [Main] Checking luggage count
+2023-04-27 20:24:18 WARN  [Main] LuggageCountException caught
+2023-04-27 20:24:18 ERROR [Main] Invalid luggage count
+2023-04-27 20:24:18 INFO  [Main] try-catch custom Exception
+2023-04-27 20:24:18 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:24:18 INFO  [Main] Checking salary
+2023-04-27 20:24:43 INFO  [Main] Static block executed
+2023-04-27 20:24:43 INFO  [Main] Displayed Airport details
+2023-04-27 20:24:43 INFO  [Main] try-catch custom Exception
+2023-04-27 20:24:43 DEBUG [Main] Checking passport number
+2023-04-27 20:24:43 WARN  [Main] PassportNumberException caught
+2023-04-27 20:24:43 ERROR [Main] Invalid Passport number
+2023-04-27 20:24:43 INFO  [Main] try-catch custom Exception
+2023-04-27 20:24:43 INFO  [Main] Checking luggage count
+2023-04-27 20:24:43 WARN  [Main] LuggageCountException caught
+2023-04-27 20:24:43 ERROR [Main] Invalid luggage count
+2023-04-27 20:24:44 INFO  [Main] try-catch custom Exception
+2023-04-27 20:24:44 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:24:44 INFO  [Main] Checking salary
+2023-04-27 20:25:03 INFO  [Main] Static block executed
+2023-04-27 20:25:03 INFO  [Main] Displayed Airport details
+2023-04-27 20:25:03 INFO  [Main] try-catch custom Exception
+2023-04-27 20:25:03 DEBUG [Main] Checking passport number
+2023-04-27 20:25:03 WARN  [Main] PassportNumberException caught
+2023-04-27 20:25:03 ERROR [Main] Invalid Passport number
+2023-04-27 20:25:04 INFO  [Main] try-catch custom Exception
+2023-04-27 20:25:04 INFO  [Main] Checking luggage count
+2023-04-27 20:25:04 WARN  [Main] LuggageCountException caught
+2023-04-27 20:25:04 ERROR [Main] Invalid luggage count
+2023-04-27 20:25:04 INFO  [Main] try-catch custom Exception
+2023-04-27 20:25:04 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:25:04 INFO  [Main] Checking salary
+2023-04-27 20:27:57 INFO  [Main] Static block executed
+2023-04-27 20:27:57 INFO  [Main] Displayed Airport details
+2023-04-27 20:27:57 INFO  [Main] try-catch custom Exception
+2023-04-27 20:27:57 DEBUG [Main] Checking passport number
+2023-04-27 20:27:57 WARN  [Main] PassportNumberException caught
+2023-04-27 20:27:57 ERROR [Main] Invalid Passport number
+2023-04-27 20:27:57 INFO  [Main] try-catch custom Exception
+2023-04-27 20:27:57 INFO  [Main] Checking luggage count
+2023-04-27 20:27:57 WARN  [Main] LuggageCountException caught
+2023-04-27 20:27:57 ERROR [Main] Invalid luggage count
+2023-04-27 20:27:57 INFO  [Main] try-catch custom Exception
+2023-04-27 20:27:57 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:27:57 INFO  [Main] Checking salary
+2023-04-27 20:32:17 INFO  [Main] Static block executed
+2023-04-27 20:32:17 INFO  [Main] Displayed Airport details
+2023-04-27 20:32:17 INFO  [Main] try-catch custom Exception
+2023-04-27 20:32:17 DEBUG [Main] Checking passport number
+2023-04-27 20:32:17 WARN  [Main] PassportNumberException caught
+2023-04-27 20:32:17 ERROR [Main] Invalid Passport number
+2023-04-27 20:32:17 INFO  [Main] try-catch custom Exception
+2023-04-27 20:32:17 INFO  [Main] Checking luggage count
+2023-04-27 20:32:17 WARN  [Main] LuggageCountException caught
+2023-04-27 20:32:17 ERROR [Main] Invalid luggage count
+2023-04-27 20:32:17 INFO  [Main] try-catch custom Exception
+2023-04-27 20:32:17 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:32:17 INFO  [Main] Checking salary
+2023-04-27 20:32:17 INFO  [Main] try-catch custom Exception
+2023-04-27 20:32:17 INFO  [Main] Checking minimum salary of the employee
+2023-04-27 20:34:17 INFO  [Main] Static block executed
+2023-04-27 20:34:17 INFO  [Main] Displayed Airport details
+2023-04-27 20:34:17 INFO  [Main] try-catch custom Exception
+2023-04-27 20:34:17 DEBUG [Main] Checking passport number
+2023-04-27 20:34:17 WARN  [Main] PassportNumberException caught
+2023-04-27 20:34:17 ERROR [Main] Invalid Passport number
+2023-04-27 20:34:17 INFO  [Main] try-catch custom Exception
+2023-04-27 20:34:17 INFO  [Main] Checking luggage count
+2023-04-27 20:34:17 WARN  [Main] LuggageCountException caught
+2023-04-27 20:34:17 ERROR [Main] Invalid luggage count
+2023-04-27 20:34:17 INFO  [Main] try-catch custom Exception
+2023-04-27 20:34:17 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:34:17 INFO  [Main] Checking salary
+2023-04-27 20:34:17 INFO  [Main] try-catch custom Exception
+2023-04-27 20:34:17 INFO  [Main] Checking minimum salary of the employee
+2023-04-27 20:35:53 INFO  [Main] Static block executed
+2023-04-27 20:35:53 INFO  [Main] Displayed Airport details
+2023-04-27 20:35:53 INFO  [Main] try-catch custom Exception
+2023-04-27 20:35:53 DEBUG [Main] Checking passport number
+2023-04-27 20:35:53 WARN  [Main] PassportNumberException caught
+2023-04-27 20:35:53 ERROR [Main] Invalid Passport number
+2023-04-27 20:35:54 INFO  [Main] try-catch custom Exception
+2023-04-27 20:35:54 INFO  [Main] Checking luggage count
+2023-04-27 20:35:54 WARN  [Main] LuggageCountException caught
+2023-04-27 20:35:54 ERROR [Main] Invalid luggage count
+2023-04-27 20:35:54 INFO  [Main] try-catch custom Exception
+2023-04-27 20:35:54 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-27 20:35:54 INFO  [Main] Checking salary
+2023-04-27 20:35:54 INFO  [Main] try-catch custom Exception
+2023-04-27 20:35:54 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:10:08 INFO  [Main] Static block executed
+2023-04-28 08:10:08 INFO  [Main] Displayed Airport details
+2023-04-28 08:10:08 INFO  [Main] try-catch custom Exception
+2023-04-28 08:10:08 DEBUG [Main] Checking passport number
+2023-04-28 08:10:08 WARN  [Main] PassportNumberException caught
+2023-04-28 08:10:08 ERROR [Main] Invalid Passport number
+2023-04-28 08:10:08 INFO  [Main] try-catch custom Exception
+2023-04-28 08:10:08 INFO  [Main] Checking luggage count
+2023-04-28 08:10:08 WARN  [Main] LuggageCountException caught
+2023-04-28 08:10:08 ERROR [Main] Invalid luggage count
+2023-04-28 08:10:08 INFO  [Main] try-catch custom Exception
+2023-04-28 08:10:08 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:10:08 INFO  [Main] Checking salary
+2023-04-28 08:10:08 INFO  [Main] try-catch custom Exception
+2023-04-28 08:10:08 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:13:37 INFO  [Main] Static block executed
+2023-04-28 08:13:37 INFO  [Main] Displayed Airport details
+2023-04-28 08:13:37 INFO  [Main] try-catch custom Exception
+2023-04-28 08:13:37 DEBUG [Main] Checking passport number
+2023-04-28 08:13:37 INFO  [Main] try-catch custom Exception
+2023-04-28 08:13:37 INFO  [Main] Checking luggage count
+2023-04-28 08:13:37 INFO  [Main] try-catch custom Exception
+2023-04-28 08:13:37 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:13:37 INFO  [Main] Checking salary
+2023-04-28 08:13:37 INFO  [Main] try-catch custom Exception
+2023-04-28 08:13:37 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:17:45 INFO  [Main] Static block executed
+2023-04-28 08:17:45 INFO  [Main] Displayed Airport details
+2023-04-28 08:17:46 INFO  [Main] Checking salary
+2023-04-28 08:17:46 INFO  [Main] try-catch custom Exception
+2023-04-28 08:17:46 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:24:03 INFO  [Main] Static block executed
+2023-04-28 08:24:03 INFO  [Main] Displayed Airport details
+2023-04-28 08:24:03 WARN  [Main] PassportNumberException caught
+2023-04-28 08:24:03 ERROR [Main] Invalid Passport number
+2023-04-28 08:24:03 WARN  [Main] LuggageCountException caught
+2023-04-28 08:24:03 ERROR [Main] Invalid luggage count
+2023-04-28 08:24:03 INFO  [Main] try-catch custom Exception
+2023-04-28 08:24:03 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:24:03 INFO  [Main] Checking salary
+2023-04-28 08:24:03 INFO  [Main] try-catch custom Exception
+2023-04-28 08:24:03 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:38:38 INFO  [Main] Static block executed
+2023-04-28 08:38:38 INFO  [Main] Displayed Airport details
+2023-04-28 08:38:38 WARN  [Main] PassportNumberException caught
+2023-04-28 08:38:38 ERROR [Main] Invalid Passport number
+2023-04-28 08:38:38 WARN  [Main] LuggageCountException caught
+2023-04-28 08:38:38 ERROR [Main] Invalid luggage count
+2023-04-28 08:38:39 INFO  [Main] try-catch custom Exception
+2023-04-28 08:38:39 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:38:39 INFO  [Main] Checking salary
+2023-04-28 08:38:39 INFO  [Main] try-catch custom Exception
+2023-04-28 08:38:39 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:39:37 INFO  [Main] Static block executed
+2023-04-28 08:39:37 INFO  [Main] Displayed Airport details
+2023-04-28 08:39:37 WARN  [Main] PassportNumberException caught
+2023-04-28 08:39:37 ERROR [Main] Invalid Passport number
+2023-04-28 08:39:37 WARN  [Main] LuggageCountException caught
+2023-04-28 08:39:37 ERROR [Main] Invalid luggage count
+2023-04-28 08:39:37 INFO  [Main] try-catch custom Exception
+2023-04-28 08:39:37 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:39:37 INFO  [Main] Checking salary
+2023-04-28 08:39:37 INFO  [Main] try-catch custom Exception
+2023-04-28 08:39:37 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:47:53 INFO  [Main] Static block executed
+2023-04-28 08:47:53 INFO  [Main] Displayed Airport details
+2023-04-28 08:47:53 WARN  [Main] PassportNumberException caught
+2023-04-28 08:47:53 ERROR [Main] Invalid Passport number
+2023-04-28 08:47:53 WARN  [Main] LuggageCountException caught
+2023-04-28 08:47:53 ERROR [Main] Invalid luggage count
+2023-04-28 08:47:53 INFO  [Main] try-catch custom Exception
+2023-04-28 08:47:53 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:47:53 INFO  [Main] Checking salary
+2023-04-28 08:47:53 INFO  [Main] try-catch custom Exception
+2023-04-28 08:47:53 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:48:50 INFO  [Main] Static block executed
+2023-04-28 08:48:50 INFO  [Main] Displayed Airport details
+2023-04-28 08:48:50 WARN  [Main] PassportNumberException caught
+2023-04-28 08:48:50 ERROR [Main] Invalid Passport number
+2023-04-28 08:48:50 WARN  [Main] LuggageCountException caught
+2023-04-28 08:48:50 ERROR [Main] Invalid luggage count
+2023-04-28 08:48:50 INFO  [Main] try-catch custom Exception
+2023-04-28 08:48:50 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:48:50 INFO  [Main] Checking salary
+2023-04-28 08:48:50 INFO  [Main] try-catch custom Exception
+2023-04-28 08:48:50 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:49:33 INFO  [Main] Static block executed
+2023-04-28 08:49:33 INFO  [Main] Displayed Airport details
+2023-04-28 08:49:33 WARN  [Main] PassportNumberException caught
+2023-04-28 08:49:33 ERROR [Main] Invalid Passport number
+2023-04-28 08:49:33 WARN  [Main] LuggageCountException caught
+2023-04-28 08:49:33 ERROR [Main] Invalid luggage count
+2023-04-28 08:49:33 INFO  [Main] try-catch custom Exception
+2023-04-28 08:49:33 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:49:33 INFO  [Main] Checking salary
+2023-04-28 08:49:33 INFO  [Main] try-catch custom Exception
+2023-04-28 08:49:33 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:52:43 INFO  [Main] Static block executed
+2023-04-28 08:52:43 INFO  [Main] Displayed Airport details
+2023-04-28 08:52:43 WARN  [Main] PassportNumberException caught
+2023-04-28 08:52:43 ERROR [Main] Invalid Passport number
+2023-04-28 08:52:43 WARN  [Main] LuggageCountException caught
+2023-04-28 08:52:43 ERROR [Main] Invalid luggage count
+2023-04-28 08:52:43 INFO  [Main] try-catch custom Exception
+2023-04-28 08:52:43 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:52:43 INFO  [Main] Checking salary
+2023-04-28 08:52:43 INFO  [Main] try-catch custom Exception
+2023-04-28 08:52:43 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:53:39 INFO  [Main] Static block executed
+2023-04-28 08:53:39 INFO  [Main] Displayed Airport details
+2023-04-28 08:53:39 WARN  [Main] PassportNumberException caught
+2023-04-28 08:53:39 ERROR [Main] Invalid Passport number
+2023-04-28 08:53:39 WARN  [Main] LuggageCountException caught
+2023-04-28 08:53:39 ERROR [Main] Invalid luggage count
+2023-04-28 08:53:39 INFO  [Main] try-catch custom Exception
+2023-04-28 08:53:39 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:53:39 INFO  [Main] Checking salary
+2023-04-28 08:53:39 INFO  [Main] try-catch custom Exception
+2023-04-28 08:53:39 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:54:31 INFO  [Main] Static block executed
+2023-04-28 08:54:31 INFO  [Main] Displayed Airport details
+2023-04-28 08:54:31 WARN  [Main] PassportNumberException caught
+2023-04-28 08:54:31 ERROR [Main] Invalid Passport number
+2023-04-28 08:54:31 WARN  [Main] LuggageCountException caught
+2023-04-28 08:54:31 ERROR [Main] Invalid luggage count
+2023-04-28 08:54:31 INFO  [Main] try-catch custom Exception
+2023-04-28 08:54:31 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:54:31 INFO  [Main] Checking salary
+2023-04-28 08:54:31 INFO  [Main] try-catch custom Exception
+2023-04-28 08:54:31 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 08:58:02 INFO  [Main] Static block executed
+2023-04-28 08:58:02 INFO  [Main] Displayed Airport details
+2023-04-28 08:58:02 WARN  [Main] PassportNumberException caught
+2023-04-28 08:58:02 ERROR [Main] Invalid Passport number
+2023-04-28 08:58:02 WARN  [Main] LuggageCountException caught
+2023-04-28 08:58:02 ERROR [Main] Invalid luggage count
+2023-04-28 08:58:02 INFO  [Main] try-catch custom Exception
+2023-04-28 08:58:02 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:58:02 INFO  [Main] Checking salary
+2023-04-28 08:58:54 INFO  [Main] Static block executed
+2023-04-28 08:58:54 INFO  [Main] Displayed Airport details
+2023-04-28 08:58:54 WARN  [Main] PassportNumberException caught
+2023-04-28 08:58:54 ERROR [Main] Invalid Passport number
+2023-04-28 08:58:54 WARN  [Main] LuggageCountException caught
+2023-04-28 08:58:54 ERROR [Main] Invalid luggage count
+2023-04-28 08:58:54 INFO  [Main] try-catch custom Exception
+2023-04-28 08:58:54 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:58:54 INFO  [Main] Checking salary
+2023-04-28 08:59:34 INFO  [Main] Static block executed
+2023-04-28 08:59:34 INFO  [Main] Displayed Airport details
+2023-04-28 08:59:34 WARN  [Main] PassportNumberException caught
+2023-04-28 08:59:34 ERROR [Main] Invalid Passport number
+2023-04-28 08:59:34 WARN  [Main] LuggageCountException caught
+2023-04-28 08:59:34 ERROR [Main] Invalid luggage count
+2023-04-28 08:59:34 INFO  [Main] try-catch custom Exception
+2023-04-28 08:59:34 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 08:59:34 INFO  [Main] Checking salary
+2023-04-28 08:59:34 INFO  [Main] try-catch custom Exception
+2023-04-28 08:59:34 INFO  [Main] Checking minimum salary of the employee
+2023-04-28 09:00:58 INFO  [Main] Static block executed
+2023-04-28 09:00:58 INFO  [Main] Displayed Airport details
+2023-04-28 09:00:58 WARN  [Main] PassportNumberException caught
+2023-04-28 09:00:58 ERROR [Main] Invalid Passport number
+2023-04-28 09:00:58 WARN  [Main] LuggageCountException caught
+2023-04-28 09:00:58 ERROR [Main] Invalid luggage count
+2023-04-28 09:00:58 INFO  [Main] try-catch custom Exception
+2023-04-28 09:00:58 INFO  [Main] Checking minimum hourly rate of the employee
+2023-04-28 09:00:58 INFO  [Main] Checking salary
+2023-04-28 09:00:58 INFO  [Main] try-catch custom Exception
+2023-04-28 09:00:58 INFO  [Main] SalaryException caught
+2023-04-28 09:02:04 INFO  [Main] Static block executed
+2023-04-28 09:02:04 INFO  [Main] Displayed Airport details
+2023-04-28 09:02:04 WARN  [Main] PassportNumberException caught
+2023-04-28 09:02:04 ERROR [Main] Invalid Passport number
+2023-04-28 09:02:04 WARN  [Main] LuggageCountException caught
+2023-04-28 09:02:04 ERROR [Main] Invalid luggage count
+2023-04-28 09:02:04 INFO  [Main] Checking salary
+2023-04-28 09:02:04 INFO  [Main] try-catch custom Exception
+2023-04-28 09:02:04 INFO  [Main] SalaryException caught
+2023-04-28 09:02:43 INFO  [Main] Static block executed
+2023-04-28 09:02:43 INFO  [Main] Displayed Airport details
+2023-04-28 09:02:43 WARN  [Main] PassportNumberException caught
+2023-04-28 09:02:43 ERROR [Main] Invalid Passport number
+2023-04-28 09:02:43 WARN  [Main] LuggageCountException caught
+2023-04-28 09:02:43 ERROR [Main] Invalid luggage count
+2023-04-28 09:02:43 INFO  [Main] try-catch custom Exception
+2023-04-28 09:02:43 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:02:43 INFO  [Main] Checking salary
+2023-04-28 09:02:43 INFO  [Main] try-catch custom Exception
+2023-04-28 09:02:43 INFO  [Main] SalaryException caught
+2023-04-28 09:03:37 INFO  [Main] Static block executed
+2023-04-28 09:03:37 INFO  [Main] Displayed Airport details
+2023-04-28 09:03:37 WARN  [Main] PassportNumberException caught
+2023-04-28 09:03:37 ERROR [Main] Invalid Passport number
+2023-04-28 09:03:37 WARN  [Main] LuggageCountException caught
+2023-04-28 09:03:37 ERROR [Main] Invalid luggage count
+2023-04-28 09:03:37 INFO  [Main] try-catch custom Exception
+2023-04-28 09:03:37 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:03:37 INFO  [Main] Checking salary
+2023-04-28 09:03:37 INFO  [Main] try-catch custom Exception
+2023-04-28 09:03:37 INFO  [Main] SalaryException caught
+2023-04-28 09:04:48 INFO  [Main] Static block executed
+2023-04-28 09:04:48 INFO  [Main] Displayed Airport details
+2023-04-28 09:04:48 WARN  [Main] PassportNumberException caught
+2023-04-28 09:04:48 ERROR [Main] Invalid Passport number
+2023-04-28 09:04:48 WARN  [Main] LuggageCountException caught
+2023-04-28 09:04:48 ERROR [Main] Invalid luggage count
+2023-04-28 09:04:48 INFO  [Main] try-catch custom Exception
+2023-04-28 09:04:48 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:04:48 INFO  [Main] Checking salary
+2023-04-28 09:04:48 INFO  [Main] try-catch custom Exception
+2023-04-28 09:04:48 INFO  [Main] SalaryException caught
+2023-04-28 09:05:18 INFO  [Main] Static block executed
+2023-04-28 09:05:18 INFO  [Main] Displayed Airport details
+2023-04-28 09:05:18 WARN  [Main] PassportNumberException caught
+2023-04-28 09:05:18 ERROR [Main] Invalid Passport number
+2023-04-28 09:05:18 WARN  [Main] LuggageCountException caught
+2023-04-28 09:05:18 ERROR [Main] Invalid luggage count
+2023-04-28 09:05:18 INFO  [Main] try-catch custom Exception
+2023-04-28 09:05:18 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:05:18 INFO  [Main] Checking salary
+2023-04-28 09:05:18 INFO  [Main] try-catch custom Exception
+2023-04-28 09:05:18 INFO  [Main] SalaryException caught
+2023-04-28 09:05:47 INFO  [Main] Static block executed
+2023-04-28 09:05:47 INFO  [Main] Displayed Airport details
+2023-04-28 09:05:47 WARN  [Main] PassportNumberException caught
+2023-04-28 09:05:47 ERROR [Main] Invalid Passport number
+2023-04-28 09:05:47 WARN  [Main] LuggageCountException caught
+2023-04-28 09:05:47 ERROR [Main] Invalid luggage count
+2023-04-28 09:05:47 INFO  [Main] try-catch custom Exception
+2023-04-28 09:05:47 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:05:47 INFO  [Main] Checking salary
+2023-04-28 09:05:47 INFO  [Main] try-catch custom Exception
+2023-04-28 09:05:47 INFO  [Main] SalaryException caught
+2023-04-28 09:06:28 INFO  [Main] Static block executed
+2023-04-28 09:06:28 INFO  [Main] Displayed Airport details
+2023-04-28 09:06:28 WARN  [Main] PassportNumberException caught
+2023-04-28 09:06:28 ERROR [Main] Invalid Passport number
+2023-04-28 09:06:28 WARN  [Main] LuggageCountException caught
+2023-04-28 09:06:28 ERROR [Main] Invalid luggage count
+2023-04-28 09:06:28 INFO  [Main] try-catch custom Exception
+2023-04-28 09:06:28 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:06:28 INFO  [Main] Checking salary
+2023-04-28 09:06:28 INFO  [Main] try-catch custom Exception
+2023-04-28 09:06:28 INFO  [Main] SalaryException caught
+2023-04-28 09:07:18 INFO  [Main] Static block executed
+2023-04-28 09:07:18 INFO  [Main] Displayed Airport details
+2023-04-28 09:07:18 WARN  [Main] PassportNumberException caught
+2023-04-28 09:07:18 ERROR [Main] Invalid Passport number
+2023-04-28 09:07:18 WARN  [Main] LuggageCountException caught
+2023-04-28 09:07:18 ERROR [Main] Invalid luggage count
+2023-04-28 09:07:18 INFO  [Main] try-catch custom Exception
+2023-04-28 09:07:18 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:07:18 INFO  [Main] Checking salary
+2023-04-28 09:07:18 INFO  [Main] try-catch custom Exception
+2023-04-28 09:07:18 INFO  [Main] SalaryException caught
+2023-04-28 09:09:19 INFO  [Main] Static block executed
+2023-04-28 09:09:19 INFO  [Main] Displayed Airport details
+2023-04-28 09:09:19 WARN  [Main] PassportNumberException caught
+2023-04-28 09:09:19 ERROR [Main] Invalid Passport number
+2023-04-28 09:09:19 WARN  [Main] LuggageCountException caught
+2023-04-28 09:09:19 ERROR [Main] Invalid luggage count
+2023-04-28 09:09:19 INFO  [Main] try-catch custom Exception
+2023-04-28 09:09:19 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:09:19 INFO  [Main] try-catch custom Exception
+2023-04-28 09:09:19 INFO  [Main] SalaryException caught
+2023-04-28 09:11:23 INFO  [Main] Static block executed
+2023-04-28 09:11:23 INFO  [Main] Displayed Airport details
+2023-04-28 09:11:23 WARN  [Main] PassportNumberException caught
+2023-04-28 09:11:23 ERROR [Main] Invalid Passport number
+2023-04-28 09:11:23 WARN  [Main] LuggageCountException caught
+2023-04-28 09:11:23 ERROR [Main] Invalid luggage count
+2023-04-28 09:11:23 INFO  [Main] try-catch custom Exception
+2023-04-28 09:11:23 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:11:23 INFO  [Main] try-catch custom Exception
+2023-04-28 09:11:23 INFO  [Main] SalaryException caught
+2023-04-28 09:51:08 INFO  [Main] Static block executed
+2023-04-28 09:51:08 INFO  [Main] Displayed Airport details
+2023-04-28 09:51:08 WARN  [Main] PassportNumberException caught
+2023-04-28 09:51:08 ERROR [Main] Invalid Passport number
+2023-04-28 09:51:08 WARN  [Main] LuggageCountException caught
+2023-04-28 09:51:08 ERROR [Main] Invalid luggage count
+2023-04-28 09:51:08 INFO  [Main] try-catch custom Exception
+2023-04-28 09:51:08 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:51:08 INFO  [Main] try-catch custom Exception
+2023-04-28 09:51:08 INFO  [Main] SalaryException caught
+2023-04-28 09:51:20 INFO  [Main] Static block executed
+2023-04-28 09:51:20 INFO  [Main] Displayed Airport details
+2023-04-28 09:51:20 WARN  [Main] PassportNumberException caught
+2023-04-28 09:51:20 ERROR [Main] Invalid Passport number
+2023-04-28 09:51:20 WARN  [Main] LuggageCountException caught
+2023-04-28 09:51:20 ERROR [Main] Invalid luggage count
+2023-04-28 09:51:20 INFO  [Main] try-catch custom Exception
+2023-04-28 09:51:20 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:51:20 INFO  [Main] try-catch custom Exception
+2023-04-28 09:51:20 INFO  [Main] SalaryException caught
+2023-04-28 09:52:33 INFO  [Main] Static block executed
+2023-04-28 09:52:33 INFO  [Main] Displayed Airport details
+2023-04-28 09:52:33 WARN  [Main] PassportNumberException caught
+2023-04-28 09:52:33 ERROR [Main] Invalid Passport number
+2023-04-28 09:52:33 WARN  [Main] LuggageCountException caught
+2023-04-28 09:52:33 ERROR [Main] Invalid luggage count
+2023-04-28 09:52:33 INFO  [Main] try-catch custom Exception
+2023-04-28 09:52:33 INFO  [Main] MinimumWage Exception caught
+2023-04-28 09:52:33 INFO  [Main] try-catch custom Exception
+2023-04-28 09:52:33 INFO  [Main] SalaryException caught
+2023-04-28 10:19:04 INFO  [Main] Static block executed
+2023-04-28 10:19:04 INFO  [Main] Displayed Airport details
+2023-04-28 10:19:04 WARN  [Main] PassportNumberException caught
+2023-04-28 10:19:04 ERROR [Main] Invalid Passport number
+2023-04-28 10:19:04 WARN  [Main] LuggageCountException caught
+2023-04-28 10:19:04 ERROR [Main] Invalid luggage count
+2023-04-28 10:19:04 INFO  [Main] try-catch custom Exception
+2023-04-28 10:19:04 INFO  [Main] MinimumWage Exception caught
+2023-04-28 10:19:04 INFO  [Main] try-catch custom Exception
+2023-04-28 10:19:04 INFO  [Main] SalaryException caught
+2023-04-28 10:19:43 INFO  [Main] Static block executed
+2023-04-28 10:19:43 INFO  [Main] Displayed Airport details
+2023-04-28 10:19:43 WARN  [Main] PassportNumberException caught
+2023-04-28 10:19:43 ERROR [Main] Invalid Passport number
+2023-04-28 10:19:43 WARN  [Main] LuggageCountException caught
+2023-04-28 10:19:43 ERROR [Main] Invalid luggage count
+2023-04-28 10:19:43 INFO  [Main] try-catch custom Exception
+2023-04-28 10:19:43 INFO  [Main] MinimumWage Exception caught
+2023-04-28 10:19:43 INFO  [Main] try-catch custom Exception
+2023-04-28 10:19:43 INFO  [Main] SalaryException caught
+2023-04-28 10:32:23 INFO  [Main] Static block executed
+2023-04-28 10:32:23 INFO  [Main] Displayed Airport details
+2023-04-28 10:46:24 INFO  [Main] Static block executed
+2023-04-28 10:46:24 INFO  [Main] Displayed Airport details
+2023-04-28 10:54:07 INFO  [Main] Static block executed
+2023-04-28 10:54:07 INFO  [Main] Displayed Airport details
+2023-04-28 10:54:07 WARN  [Main] PassportNumberException caught
+2023-04-28 10:54:07 ERROR [Main] Invalid Passport number
+2023-04-28 10:54:07 WARN  [Main] LuggageCountException caught
+2023-04-28 10:54:07 ERROR [Main] Invalid luggage count
+2023-04-28 10:54:07 INFO  [Main] try-catch custom Exception
+2023-04-28 10:54:07 INFO  [Main] MinimumWage Exception caught
+2023-04-28 10:54:07 INFO  [Main] try-catch custom Exception
+2023-04-28 10:54:07 INFO  [Main] SalaryException caught
+2023-04-28 10:56:23 INFO  [Main] Static block executed
+2023-04-28 10:56:23 INFO  [Main] Displayed Airport details
+2023-04-28 10:56:23 WARN  [Main] PassportNumberException caught
+2023-04-28 10:56:23 ERROR [Main] Invalid Passport number
+2023-04-28 10:56:23 WARN  [Main] LuggageCountException caught
+2023-04-28 10:56:23 ERROR [Main] Invalid luggage count
+2023-04-28 10:56:23 INFO  [Main] try-catch custom Exception
+2023-04-28 10:56:23 INFO  [Main] MinimumWage Exception caught
+2023-04-28 10:56:23 INFO  [Main] try-catch custom Exception
+2023-04-28 10:56:23 INFO  [Main] SalaryException caught

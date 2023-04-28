@@ -1,0 +1,16 @@
+
+        Airlines                          Code
+        ______________                  _______________
+        Aeroflot Russian Airlines          SU
+        AeroMexico                         AM
+        AirCanada                          AC
+        Cathay Pacific                     CX
+        Copa Airlines                      CM
+        Delta Airlines                     DL
+        Emirates                           EK
+        Hawaiian Airlines                  HA
+        Japan Airlines                     JL
+        Korean Airlines                    KE
+        Qatar Airlines                     QR
+        Singapore Airlines                 SQ
+        West Jet                           WS
