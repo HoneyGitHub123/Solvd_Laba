@@ -31,9 +31,9 @@ public class AirEmployees extends Employees implements Salary, Bonus {
     //Used override method from class Object toString()
     @Override
     public String toString() {
-        return "Employee Name:" + " " + this.employeeName + "\nEmployee ID:" + " " + this.employeeId
-                + "\nEmployee Department:" + " " + this.department + "\nEmployee Designation:"
-                + " " + this.designation + "\nHourly Rate:" + " " + this.hourlyRate;
+        return "\nEmployee Name:" + this.employeeName + "\tEmployee ID:" + " " + this.employeeId
+                + "\tEmployee Department:" + this.department + "\tEmployee Designation:"
+                + this.designation + "\tHourly Rate:" + this.hourlyRate;
     }
 
     //Used override method from class Object equals().
@@ -53,22 +53,26 @@ public class AirEmployees extends Employees implements Salary, Bonus {
     @Override
     public int hashCode() {
         return Objects.hash(employeeName, employeeId, department, designation, hourlyRate);
+
     }
 
     //Implementing abstract method from Interface
     public double calculateSalary() {
-        double sal = hourlyRate * workingHours;
+        double sal = hourlyRate * workingHours * 20;
         return sal;
     }
 
     //Custom exception
     public void checkSalary(double salary) throws SalaryException {
-        if (salary < 1200) {
-            throw new SalaryException("Salary amount is less than minimum salary amount.Minimum salary for the employee is 1200 USD");
+        if (salary < 2400) {
+
+            System.out.println("\nSalary Computed is wrong for" + " " + employeeName);
+            throw new SalaryException("Salary amount is less than minimum salary amount.Minimum salary for the employee is 2400 USD");
 
         } else {
-            System.out.println("Salary of the employee in USD:" + salary);
-
+            System.out.println();
+            System.out.println("Salary of the employee in USD:" + employeeName + " " + salary);
+            System.out.println("Total salary of the employee including bonus in USD:" + calculateBonus());
         }
 
     }

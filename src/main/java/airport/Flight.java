@@ -16,4 +16,7 @@ public class Flight {
         this.departure = departure;
         this.arrival = arrival;
     }
+
+
 }
+

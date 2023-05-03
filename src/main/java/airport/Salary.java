@@ -1,7 +1,7 @@
 package airport;
 
 public interface Salary {
-    int workingHours = 40;
+    int workingHours = 8;
 
     double calculateSalary();
 }

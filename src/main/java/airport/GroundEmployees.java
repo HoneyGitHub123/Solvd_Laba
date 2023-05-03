@@ -33,9 +33,9 @@ public class GroundEmployees extends Employees implements Salary, Bonus {
     //Used override method from class Object toString()
     @Override
     public String toString() {
-        return "Employee Name:" + " " + this.employeeName + "\nEmployee ID:" + " " + this.employeeId
-                + "\nEmployee Department:" + " " + this.department + "\nEmployee Designation:"
-                + " " + this.designation + "\nHourly Rate:" + " " + this.hourlyRate;
+        return "\nEmployee Name:" + " " + this.employeeName + "\tEmployee ID:" + " " + this.employeeId
+                + "\tEmployee Department:" + " " + this.department + "\tEmployee Designation:"
+                + " " + this.designation + "\tHourly Rate:" + " " + this.hourlyRate;
     }
 
     //Used override method from class Object equals()
@@ -59,6 +59,7 @@ public class GroundEmployees extends Employees implements Salary, Bonus {
 
     public void checkMinimumRate() throws MinimumRateException {
         if (hourlyRate < 15) {
+            System.out.println("\nHourly rate of employee" + " " + employeeName + " " + "is less than minimum hourly rate");
             throw new MinimumRateException("Minimum hourly rate of the employee should be greater than 15");
 
         }

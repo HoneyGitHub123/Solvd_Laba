@@ -69,6 +69,12 @@ public final class AirLine extends AirportManagement {
             fis.close();
         }
     }
+
+    public void getNumberOfFlights() {
+        System.out.println("Airline and Number of flights");
+        System.out.println("==============================");
+
+    }
 }
 
 
