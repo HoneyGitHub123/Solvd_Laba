@@ -1,4 +1,4 @@
-package airport;
+package com.airport1.airportsystem;
 
 import exceptions.LuggageCountException;
 

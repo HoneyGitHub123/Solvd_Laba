@@ -1,12 +1,11 @@
-package airport;
+package com.airport1.airportsystem;
 
 import exceptions.PassportNumberException;
 
 //Class that implement interfaces.
 
-public class TicketReservation extends Flight implements Customer, Payment {
+public class TicketReservation implements Customer, Payment, Flight {
     TicketReservation() {
-        super("QTR01", "LAX", "DOH", "Apr 20,3:00PM", "Apr 21,10:00PM");
 
     }
 
@@ -14,7 +13,7 @@ public class TicketReservation extends Flight implements Customer, Payment {
 
     public int getCustomerDetails(String name, String address, int passportNum, long phoneNum) {
         //calling static final variable from the class AirLine
-        System.out.println("Ticket Reservation:" + AirLine.airline);
+        System.out.println("Ticket Reservation:" + AirLine.AIRLINE);
         System.out.println("================================");
         System.out.println("Name:" + name);
         System.out.println("Address:" + address);
@@ -31,7 +30,8 @@ public class TicketReservation extends Flight implements Customer, Payment {
         }
     }
 
-    public void getFlightDetails() {
+    public void getFlightDetails(String flightName, String source, String destination,
+                                 String departure, String arrival) {
         System.out.println("Flight Name:" + flightName);
         System.out.println("Source:" + source);
         System.out.println("Destination:" + destination);

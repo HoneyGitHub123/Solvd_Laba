@@ -1,6 +1,5 @@
-package airport;
+package com.airport1.airportsystem;
 
-import java.util.HashMap;
 import java.util.Objects;
 
 public class FlightCapacity {

@@ -1,12 +1,10 @@
-package airport;
+package com.airport1.airportsystem;
 
-import airport1.AirportManagement;
-import airport1.Employees;
+import com.airport2.airportsystem.Airport;
 import exceptions.LuggageCountException;
 import exceptions.MinimumRateException;
 import exceptions.PassportNumberException;
 import exceptions.SalaryException;
-import jdk.jfr.FlightRecorder;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
@@ -19,8 +17,11 @@ import java.util.*;
 //Static block used
 //Custom exceptions executed
 
-public class Main {
-    private static final Logger logger = LogManager.getLogger(Main.class);
+public class AirportSystem {
+    private static final Logger logger = LogManager.getLogger(AirportSystem.class);
+    public static final String INPUT_FILE="src/main/resources/inputMessage.txt";
+    public static final String OUTPUT_FILE="src/main/resources/outputMessage.txt";
+
 
     //Example for static block
     static {
@@ -29,12 +30,27 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        AirportManagement am = new AirLine();
+        AirportInfo.getUniqueWordsCount();
+
+        List<String> internationalFlight = new ArrayList<>();
+        internationalFlight.add("Qatar Airlines:QR123,QR788,QR678");
+        internationalFlight.add("Russian Airlines:SU567,SU789");
+        internationalFlight.add("Air Canada:AC123,AC324");
+        Airport airport = new InternationalAirport("Los Angeles International Airport", "Los Angeles", internationalFlight);
         //This is an example for dynamic binding.Type of the object is determined at run time
-        am.getAirportDetails("LAX124", "Los Angeles International Airport", "California");
-        logger.info("Displayed Airport details");
-        AirLine al = new AirLine();
+        airport.getAirportDetails();
+        InternationalAirport airport1 = new InternationalAirport("Los Angeles International Airport", "Los Angeles", internationalFlight);
         //This is an example for static binding.Type of the object is determined at compile time
+        airport1.getFlights();
+        airport1.displayInformation();
+        List<String> domesticFlight = new ArrayList<>();
+        domesticFlight.add("JetBlue Airlines:JB123,JB788,JB678");
+        domesticFlight.add("Delta Airlines:DL567,DL789");
+        domesticFlight.add("American Airlines:AA123,AA324");
+        DomesticAirport airport2 = new DomesticAirport("Los Angeles International Airport", "Los Angeles", domesticFlight);
+        airport2.getFlights();
+        airport2.displayInformation();
+        AirLine al = new AirLine();
         al.getAirportDetails();
         AirLine.getAirlineDetails();
         //Calling static final method from main class without object
@@ -65,7 +81,7 @@ public class Main {
         Map<FlightCapacity, String> map = new HashMap();
         map.put(flightCapacity, "Russian Airlines");
         map.put(flightCapacity1, "Qatar Airlines");
-        map.put(flightCapacity2, "Hawaaian Airlines");
+        map.put(flightCapacity2, "Hawaiian Airlines");
         map.put(flightCapacity3, "Japan Airlines");
         FlightCapacity.displayCapacity();
         for (Map.Entry<FlightCapacity, String> entry : map.entrySet()) {
@@ -125,20 +141,22 @@ public class Main {
             logger.error("Invalid Passport number");
             System.out.println(p);
         }
-        ticketReservation.getFlightDetails();
+        ticketReservation.getFlightDetails("QTR01", "LAX", "DOH", "Apr 20,3:00PM", "Apr 21,10:00PM");
         ticketReservation.bookSeat("A12", "Economy");
         ticketReservation.getPayment("5574656546", "USD", 1500);
         Passenger passenger = new Passenger("John Math", 100012, "QTR9898", "A12", "Economy");
         Passenger passenger1 = new Passenger("John Math", 100012, "QTR9898", "A12", "Economy");
-        passenger.getPassengerDetails();
+        System.out.println("Passenger Details");
+        System.out.println("================");
         System.out.println(passenger);
         System.out.println("Comparing two passenger objects psg,psg1:True or False?" + passenger.equals(passenger1));
         System.out.println(passenger.hashCode());
         System.out.println(passenger1.hashCode());
-        Flight flight = new Flight("QTR01", "LAX", "DOH", "Apr 20,3:00PM", "Apr 21,10:00PM");
-        BoardingPass boardingPass = new BoardingPass(passenger, flight);
+        BoardingPass boardingPass = new BoardingPass("John Math", 100012, "QTR9898", "A12", "Economy");
+        boardingPass.displayBoardingPass();
         boardingPass.getPassengerDetails();
-        boardingPass.getFlightDetails();
+        boardingPass.getFlightDetails("QTR01", "LAX", "DOH", "Apr 20,3:00PM", "Apr 21,10:00PM");
+        boardingPass.getPassengerDetails();
         boardingPass.setGate("A10");
         System.out.print("Gate:" + boardingPass.getGate());
         boardingPass.setTerminal(7);

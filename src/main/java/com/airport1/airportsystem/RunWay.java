@@ -1,4 +1,4 @@
-package airport;
+package com.airport1.airportsystem;
 
 //Generic class implementation for linked list
 public class RunWay<T> {

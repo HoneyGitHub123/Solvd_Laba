@@ -1,4 +1,4 @@
-package airport;
+package com.airport1.airportsystem;
 
 import java.util.Objects;
 
@@ -18,11 +18,33 @@ public class Passenger {
         this.seatNo = seatNo;
         this.classType = classType;
     }
-
     public void getPassengerDetails() {
-        System.out.println("Passenger Details");
-        System.out.println("================");
+        System.out.print("Passenger Name:" +passengerName);
+        System.out.print("\tPassenger ID:" + passengerId);
+        System.out.println("\t\t\tTicket ID:" +ticketId);
+        System.out.print("Seat Number:" + seatNo);
+        System.out.print("\t\t\t\tClass:" +classType);
 
+    }
+
+    public String getPassengerName() {
+        return passengerName;
+    }
+
+    public int getPassengerId() {
+        return passengerId;
+    }
+
+    public String getTicketId() {
+        return ticketId;
+    }
+
+    public String getSeatNo() {
+        return seatNo;
+    }
+
+    public void setClassType(String classType) {
+        this.classType = classType;
     }
 
     @Override

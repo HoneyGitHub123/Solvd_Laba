@@ -1,36 +1,22 @@
-package airport;
-
-import airport1.AirportManagement;
+package com.airport1.airportsystem;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 
 //Created and override at least one abstract method from parent class
 //used static final variables and method
 //created final class
 //Try Catch with resources
-public final class AirLine extends AirportManagement {
+public final class AirLine {
     //static final variable
-    public static final String airline = "Qatar Airlines";
+    public static final String AIRLINE = "QATAR AIRLINES";
 
     //Default Constructor
     AirLine() {
 
     }
 
-    //Abstract method implementation in child class.
-    @Override
-    public void getAirportDetails(String airportId, String airportName,
-                                  String airportLocation) {
-        System.out.println("Welcome to" + " " + airportName);
-        System.out.println("Airport ID:" + airportId);
-        System.out.println("Airport Name:" + airportName);
-        System.out.println("Airport Location:" + airportLocation);
-    }
-
-    //Method Overloading
     public void getAirportDetails() {
         System.out.println("*****************");
     }

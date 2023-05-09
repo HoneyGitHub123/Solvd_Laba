@@ -1,4 +1,4 @@
-package airport;
+package com.airport1.airportsystem;
 
 public interface Payment {
     //Abstract method

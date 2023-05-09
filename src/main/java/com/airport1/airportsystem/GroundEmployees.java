@@ -1,8 +1,8 @@
-package airport;
+package com.airport1.airportsystem;
 
 import java.util.Objects;
 
-import airport1.Employees;
+import com.airport2.airportsystem.Employees;
 import exceptions.MinimumRateException;
 
 //Added interface to the class hierarchy
@@ -14,8 +14,7 @@ public class GroundEmployees extends Employees implements Salary, Bonus {
 
     GroundEmployees(String employeeName, String employeeId, String department,
                     String designation, double hourlyRate) {
-        this.employeeName = employeeName;
-        this.employeeId = employeeId;
+        super(employeeName, employeeId);
         this.department = department;
         this.designation = designation;
         this.hourlyRate = hourlyRate;

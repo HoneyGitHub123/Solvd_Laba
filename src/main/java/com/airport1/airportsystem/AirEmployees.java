@@ -1,8 +1,8 @@
-package airport;
+package com.airport1.airportsystem;
 
 import java.util.Objects;
 
-import airport1.Employees;
+import com.airport2.airportsystem.Employees;
 import exceptions.SalaryException;
 
 //Class that implement Interface
@@ -13,8 +13,7 @@ public class AirEmployees extends Employees implements Salary, Bonus {
 
     AirEmployees(String employeeName, String employeeId, String department,
                  String designation, double hourlyRate) {
-        this.employeeName = employeeName;
-        this.employeeId = employeeId;
+        super(employeeName, employeeId);
         this.department = department;
         this.designation = designation;
         this.hourlyRate = hourlyRate;
@@ -58,8 +57,7 @@ public class AirEmployees extends Employees implements Salary, Bonus {
 
     //Implementing abstract method from Interface
     public double calculateSalary() {
-        double sal = hourlyRate * workingHours * 20;
-        return sal;
+        return hourlyRate * workingHours * 20;
     }
 
     //Custom exception
