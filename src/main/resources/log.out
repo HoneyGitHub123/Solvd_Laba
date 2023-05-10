@@ -4050,3 +4050,143 @@
 2023-05-09 11:26:27 INFO  [AirportSystem] Printing record based on list index
 2023-05-09 11:26:27 INFO  [AirportSystem] try-catch custom Exception
 2023-05-09 11:26:27 INFO  [AirportSystem] SalaryException caught
+2023-05-09 14:05:43 INFO  [AirportSystem] Static block executed
+2023-05-09 14:05:43 INFO  [AirportSystem] TreeMap is used
+2023-05-09 14:05:43 INFO  [AirportSystem] HashMap
+2023-05-09 14:05:43 INFO  [AirportSystem] Custom linked list Implementation
+2023-05-09 14:05:43 INFO  [AirportSystem] Created String type Linked list
+2023-05-09 14:05:43 INFO  [AirportSystem] Created Integer type Linked list
+2023-05-09 14:05:43 INFO  [AirportSystem] HashSet
+2023-05-09 14:05:43 INFO  [AirportSystem] Duplicate records are not allowed in set
+2023-05-09 14:05:43 WARN  [AirportSystem] PassportNumberException caught
+2023-05-09 14:05:43 ERROR [AirportSystem] Invalid Passport number
+2023-05-09 14:05:43 WARN  [AirportSystem] LuggageCountException caught
+2023-05-09 14:05:43 ERROR [AirportSystem] Invalid luggage count
+2023-05-09 14:05:43 INFO  [AirportSystem] Adding new element in the linked list
+2023-05-09 14:05:43 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 14:05:43 INFO  [AirportSystem] MinimumWage Exception caught
+2023-05-09 14:05:43 INFO  [AirportSystem] ArrayList
+2023-05-09 14:05:43 INFO  [AirportSystem] Duplicate records are accepted in the list
+2023-05-09 14:05:43 INFO  [AirportSystem] Printing record based on list index
+2023-05-09 14:05:43 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 14:05:43 INFO  [AirportSystem] SalaryException caught
+2023-05-09 14:57:06 INFO  [AirportSystem] Static block executed
+2023-05-09 14:57:06 INFO  [AirportSystem] TreeMap is used
+2023-05-09 14:57:06 INFO  [AirportSystem] HashMap
+2023-05-09 14:57:06 INFO  [AirportSystem] Custom linked list Implementation
+2023-05-09 14:57:06 INFO  [AirportSystem] Created String type Linked list
+2023-05-09 14:57:06 INFO  [AirportSystem] Created Integer type Linked list
+2023-05-09 14:57:06 INFO  [AirportSystem] HashSet
+2023-05-09 14:57:06 INFO  [AirportSystem] Duplicate records are not allowed in set
+2023-05-09 14:57:06 WARN  [AirportSystem] PassportNumberException caught
+2023-05-09 14:57:06 ERROR [AirportSystem] Invalid Passport number
+2023-05-09 14:57:06 WARN  [AirportSystem] LuggageCountException caught
+2023-05-09 14:57:06 ERROR [AirportSystem] Invalid luggage count
+2023-05-09 14:57:06 INFO  [AirportSystem] Adding new element in the linked list
+2023-05-09 14:57:06 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 14:57:06 INFO  [AirportSystem] MinimumWage Exception caught
+2023-05-09 14:57:06 INFO  [AirportSystem] ArrayList
+2023-05-09 14:57:06 INFO  [AirportSystem] Duplicate records are accepted in the list
+2023-05-09 14:57:06 INFO  [AirportSystem] Printing record based on list index
+2023-05-09 14:57:06 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 14:57:06 INFO  [AirportSystem] SalaryException caught
+2023-05-09 14:58:37 INFO  [AirportSystem] Static block executed
+2023-05-09 14:58:38 INFO  [AirportSystem] TreeMap is used
+2023-05-09 14:58:38 INFO  [AirportSystem] HashMap
+2023-05-09 14:58:38 INFO  [AirportSystem] Custom linked list Implementation
+2023-05-09 14:58:38 INFO  [AirportSystem] Created String type Linked list
+2023-05-09 14:58:38 INFO  [AirportSystem] Created Integer type Linked list
+2023-05-09 14:58:38 INFO  [AirportSystem] HashSet
+2023-05-09 14:58:38 INFO  [AirportSystem] Duplicate records are not allowed in set
+2023-05-09 14:58:38 WARN  [AirportSystem] PassportNumberException caught
+2023-05-09 14:58:38 ERROR [AirportSystem] Invalid Passport number
+2023-05-09 14:58:38 WARN  [AirportSystem] LuggageCountException caught
+2023-05-09 14:58:38 ERROR [AirportSystem] Invalid luggage count
+2023-05-09 14:58:38 INFO  [AirportSystem] Adding new element in the linked list
+2023-05-09 14:58:38 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 14:58:38 INFO  [AirportSystem] MinimumWage Exception caught
+2023-05-09 14:58:38 INFO  [AirportSystem] ArrayList
+2023-05-09 14:58:38 INFO  [AirportSystem] Duplicate records are accepted in the list
+2023-05-09 14:58:38 INFO  [AirportSystem] Printing record based on list index
+2023-05-09 14:58:38 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 14:58:38 INFO  [AirportSystem] SalaryException caught
+2023-05-09 15:40:10 INFO  [AirportSystem] Static block executed
+2023-05-09 15:40:10 INFO  [AirportSystem] TreeMap is used
+2023-05-09 15:40:10 INFO  [AirportSystem] HashMap
+2023-05-09 15:40:10 INFO  [AirportSystem] Custom linked list Implementation
+2023-05-09 15:40:10 INFO  [AirportSystem] Created String type Linked list
+2023-05-09 15:40:10 INFO  [AirportSystem] Created Integer type Linked list
+2023-05-09 15:40:10 INFO  [AirportSystem] HashSet
+2023-05-09 15:40:10 INFO  [AirportSystem] Duplicate records are not allowed in set
+2023-05-09 15:40:10 WARN  [AirportSystem] PassportNumberException caught
+2023-05-09 15:40:10 ERROR [AirportSystem] Invalid Passport number
+2023-05-09 15:40:10 WARN  [AirportSystem] LuggageCountException caught
+2023-05-09 15:40:10 ERROR [AirportSystem] Invalid luggage count
+2023-05-09 15:40:10 INFO  [AirportSystem] Adding new element in the linked list
+2023-05-09 15:40:10 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 15:40:10 INFO  [AirportSystem] MinimumWage Exception caught
+2023-05-09 15:40:10 INFO  [AirportSystem] ArrayList
+2023-05-09 15:40:10 INFO  [AirportSystem] Duplicate records are accepted in the list
+2023-05-09 15:40:10 INFO  [AirportSystem] Printing record based on list index
+2023-05-09 15:40:10 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 15:40:10 INFO  [AirportSystem] SalaryException caught
+2023-05-09 15:40:41 INFO  [AirportSystem] Static block executed
+2023-05-09 15:40:41 INFO  [AirportSystem] TreeMap is used
+2023-05-09 15:40:41 INFO  [AirportSystem] HashMap
+2023-05-09 15:40:41 INFO  [AirportSystem] Custom linked list Implementation
+2023-05-09 15:40:41 INFO  [AirportSystem] Created String type Linked list
+2023-05-09 15:40:41 INFO  [AirportSystem] Created Integer type Linked list
+2023-05-09 15:40:41 INFO  [AirportSystem] HashSet
+2023-05-09 15:40:41 INFO  [AirportSystem] Duplicate records are not allowed in set
+2023-05-09 15:40:41 WARN  [AirportSystem] PassportNumberException caught
+2023-05-09 15:40:41 ERROR [AirportSystem] Invalid Passport number
+2023-05-09 15:40:41 WARN  [AirportSystem] LuggageCountException caught
+2023-05-09 15:40:41 ERROR [AirportSystem] Invalid luggage count
+2023-05-09 15:40:41 INFO  [AirportSystem] Adding new element in the linked list
+2023-05-09 15:40:41 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 15:40:41 INFO  [AirportSystem] MinimumWage Exception caught
+2023-05-09 15:40:41 INFO  [AirportSystem] ArrayList
+2023-05-09 15:40:41 INFO  [AirportSystem] Duplicate records are accepted in the list
+2023-05-09 15:40:41 INFO  [AirportSystem] Printing record based on list index
+2023-05-09 15:40:41 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 15:40:41 INFO  [AirportSystem] SalaryException caught
+2023-05-09 15:49:41 INFO  [AirportSystem] Static block executed
+2023-05-09 15:49:41 INFO  [AirportSystem] TreeMap is used
+2023-05-09 15:49:41 INFO  [AirportSystem] HashMap
+2023-05-09 15:49:41 INFO  [AirportSystem] Custom linked list Implementation
+2023-05-09 15:49:41 INFO  [AirportSystem] Created String type Linked list
+2023-05-09 15:49:41 INFO  [AirportSystem] Created Integer type Linked list
+2023-05-09 15:49:41 INFO  [AirportSystem] HashSet
+2023-05-09 15:49:41 INFO  [AirportSystem] Duplicate records are not allowed in set
+2023-05-09 15:49:41 WARN  [AirportSystem] PassportNumberException caught
+2023-05-09 15:49:41 ERROR [AirportSystem] Invalid Passport number
+2023-05-09 15:49:41 WARN  [AirportSystem] LuggageCountException caught
+2023-05-09 15:49:41 ERROR [AirportSystem] Invalid luggage count
+2023-05-09 15:49:42 INFO  [AirportSystem] Adding new element in the linked list
+2023-05-09 15:49:42 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 15:49:42 INFO  [AirportSystem] MinimumWage Exception caught
+2023-05-09 15:49:42 INFO  [AirportSystem] ArrayList
+2023-05-09 15:49:42 INFO  [AirportSystem] Duplicate records are accepted in the list
+2023-05-09 15:49:42 INFO  [AirportSystem] Printing record based on list index
+2023-05-09 15:49:42 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 15:49:42 INFO  [AirportSystem] SalaryException caught
+2023-05-09 17:52:38 INFO  [AirportSystem] Static block executed
+2023-05-09 17:52:38 INFO  [AirportSystem] TreeMap is used
+2023-05-09 17:52:38 INFO  [AirportSystem] HashMap
+2023-05-09 17:52:38 INFO  [AirportSystem] Custom linked list Implementation
+2023-05-09 17:52:38 INFO  [AirportSystem] Created String type Linked list
+2023-05-09 17:52:38 INFO  [AirportSystem] Created Integer type Linked list
+2023-05-09 17:52:38 INFO  [AirportSystem] HashSet
+2023-05-09 17:52:38 INFO  [AirportSystem] Duplicate records are not allowed in set
+2023-05-09 17:52:38 WARN  [AirportSystem] PassportNumberException caught
+2023-05-09 17:52:38 ERROR [AirportSystem] Invalid Passport number
+2023-05-09 17:52:38 WARN  [AirportSystem] LuggageCountException caught
+2023-05-09 17:52:38 ERROR [AirportSystem] Invalid luggage count
+2023-05-09 17:52:38 INFO  [AirportSystem] Adding new element in the linked list
+2023-05-09 17:52:38 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 17:52:38 INFO  [AirportSystem] MinimumWage Exception caught
+2023-05-09 17:52:38 INFO  [AirportSystem] ArrayList
+2023-05-09 17:52:38 INFO  [AirportSystem] Duplicate records are accepted in the list
+2023-05-09 17:52:38 INFO  [AirportSystem] Printing record based on list index
+2023-05-09 17:52:38 INFO  [AirportSystem] try-catch custom Exception
+2023-05-09 17:52:38 INFO  [AirportSystem] SalaryException caught

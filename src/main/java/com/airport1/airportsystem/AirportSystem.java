@@ -1,6 +1,9 @@
 package com.airport1.airportsystem;
 
 import com.airport2.airportsystem.Airport;
+import com.enums.AirSignal;
+import com.enums.GroundSignal;
+import com.utils.AirportInfo;
 import exceptions.LuggageCountException;
 import exceptions.MinimumRateException;
 import exceptions.PassportNumberException;
@@ -31,7 +34,13 @@ public class AirportSystem {
 
     public static void main(String[] args) throws IOException {
         AirportInfo.getUniqueWordsCount();
-
+        System.out.println("ATC Signals");
+        System.out.println("===================");
+        GroundSignal signal= GroundSignal.STEADY_GREEN;
+        System.out.println("Message for flights in ground:" +signal.getGroundSignal());
+        AirSignal signal1= AirSignal.FLASHING_GREEN;
+        System.out.println("Message for flights in Air:");
+        signal1.getMessage();
         List<String> internationalFlight = new ArrayList<>();
         internationalFlight.add("Qatar Airlines:QR123,QR788,QR678");
         internationalFlight.add("Russian Airlines:SU567,SU789");

@@ -1,4 +1,5 @@
-package com.airport1.airportsystem;
+package com.utils;
+import com.airport1.airportsystem.AirportSystem;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.LineIterator;
 import org.apache.commons.lang3.StringUtils;
@@ -16,7 +17,7 @@ public class AirportInfo {
         int count = 0;
         while (lineIterator.hasNext()) {
             String line = lineIterator.nextLine();
-            String[] words = StringUtils.split(line);
+            String[] words = StringUtils.split(line);//whitespace as the separator
             for (String unique:words) {
                 if (!(uniqueWords.contains(unique))) {
                     uniqueWords.add(unique);
