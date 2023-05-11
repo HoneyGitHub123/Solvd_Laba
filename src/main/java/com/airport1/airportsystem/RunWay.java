@@ -2,9 +2,12 @@ package com.airport1.airportsystem;
 
 //Generic class implementation for linked list
 public class RunWay<T> {
+
+
     class Node {
         T data;
         Node next;
+        T position;
 
         Node(T data) {
             this.data = data;
@@ -14,6 +17,8 @@ public class RunWay<T> {
 
     private Node head;
     private Node tail;
+    private Node first;
+
 
     //Method for printing the Linked list
     public void printList() {
@@ -47,6 +52,7 @@ public class RunWay<T> {
             tail = newNode1;
 
         }
+
 
 
     }

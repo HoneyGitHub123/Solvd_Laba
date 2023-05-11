@@ -18,6 +18,12 @@ public class Passenger {
         this.seatNo = seatNo;
         this.classType = classType;
     }
+
+    public String getClassType() {
+        return classType;
+    }
+
+
     public void getPassengerDetails() {
         System.out.print("Passenger Name:" +passengerName);
         System.out.print("\tPassenger ID:" + passengerId);

@@ -20,6 +20,17 @@ public class GroundEmployees extends Employees implements Salary, Bonus {
         this.hourlyRate = hourlyRate;
     }
 
+    public double getHourlyRate() {
+        return hourlyRate;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public String getDesignation() {
+        return designation;
+    }
 
     //Abstract method from parent class is implemented
     @Override

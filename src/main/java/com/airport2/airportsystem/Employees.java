@@ -16,6 +16,14 @@ public abstract class Employees implements Salary {
         this.employeeId = employeeId;
     }
 
+    public String getEmployeeId() {
+        return employeeId;
+    }
+
+    public String getEmployeeName() {
+        return employeeName;
+    }
+
     //Abstract method that must  be implemented in the child classes
     public abstract void getEmployeeDetails();
 }

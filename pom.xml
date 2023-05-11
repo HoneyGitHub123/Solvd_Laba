@@ -25,7 +25,7 @@
                     <execution>
                         <phase>install</phase>
                         <goals>
-                            <goal>install-file</goal>
+                            <goal>install</goal>
                         </goals>
                     </execution>
                 </executions>

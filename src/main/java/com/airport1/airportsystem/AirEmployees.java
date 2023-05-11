@@ -19,6 +19,18 @@ public class AirEmployees extends Employees implements Salary, Bonus {
         this.hourlyRate = hourlyRate;
     }
 
+    public double getHourlyRate() {
+        return hourlyRate;
+    }
+
+    public String getDesignation() {
+        return designation;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
     //Abstract method from parent class is implemented
     @Override
     public void getEmployeeDetails() {

@@ -13,17 +13,22 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.util.*;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 
 //Class with main() which will instantiate objects of implemented classes
 //Used polymorphism with the abstract class and interface from the hierarchy
 //Static block used
 //Custom exceptions executed
+//Used Lambda expression with Functional Interface,Consumer Interface,Predicate Interface
+//Custom lambda expression used
 
 public class AirportSystem {
     private static final Logger logger = LogManager.getLogger(AirportSystem.class);
-    public static final String INPUT_FILE="src/main/resources/inputMessage.txt";
-    public static final String OUTPUT_FILE="src/main/resources/outputMessage.txt";
+    public static final String INPUT_FILE = "src/main/resources/inputMessage.txt";
+    public static final String OUTPUT_FILE = "src/main/resources/outputMessage.txt";
 
 
     //Example for static block
@@ -34,13 +39,20 @@ public class AirportSystem {
 
     public static void main(String[] args) throws IOException {
         AirportInfo.getUniqueWordsCount();
-        System.out.println("ATC Signals");
-        System.out.println("===================");
-        GroundSignal signal= GroundSignal.STEADY_GREEN;
-        System.out.println("Message for flights in ground:" +signal.getGroundSignal());
-        AirSignal signal1= AirSignal.FLASHING_GREEN;
+
+        //Lambda expression using Consumer interface,with one parameter and no return value
+        System.out.println("Lambda expression implementation using Consumer Interface");
+        System.out.println("==============================================================");
+        Consumer<String> c = s -> System.out.println(s);
+        c.accept("ATC Signals");
+        c.accept("===================");
+        //enums with fields and methods
+        GroundSignal signal = GroundSignal.STEADY_GREEN;
+        System.out.println("Message for flights in ground:" + signal.getGroundSignal());
+        AirSignal signal1 = AirSignal.FLASHING_GREEN;
         System.out.println("Message for flights in Air:");
         signal1.getMessage();
+
         List<String> internationalFlight = new ArrayList<>();
         internationalFlight.add("Qatar Airlines:QR123,QR788,QR678");
         internationalFlight.add("Russian Airlines:SU567,SU789");
@@ -71,11 +83,17 @@ public class AirportSystem {
         treeMap.put("SU", 6);
         treeMap.put("AM", 2);
         treeMap.put("AC", 9);
-        treeMap.put("CX", 6);
+        treeMap.put("CX", 2);
         treeMap.put("CM", 4);
         treeMap.put("DL", 6);
         treeMap.put("EK", 4);
-        //Treemap will always display the entires in sorted order
+
+        //Lambda expression using predicate interface,with accept one parameter and returns boolean
+        System.out.println("Lambda expression implementation using Predicate Interface");
+        System.out.println("==============================================================");
+        Predicate<Integer> length = (i) -> (i > 5);
+        c.accept("Number of flights available for CX(Cathay Pacific) is greater than 5:" + length.test(treeMap.get("CX")));
+        //Treemap will always display the entries in sorted order
         System.out.println(treeMap);
         System.out.println("Number of flights for AM:" + treeMap.get("AM"));
         treeMap.remove("AC");
@@ -87,6 +105,20 @@ public class AirportSystem {
         FlightCapacity flightCapacity1 = new FlightCapacity("QTR01", 350);
         FlightCapacity flightCapacity2 = new FlightCapacity("HA345", 210);
         FlightCapacity flightCapacity3 = new FlightCapacity("JL890", 300);
+        List<FlightCapacity> list01 = new ArrayList<>();
+        list01.add(flightCapacity);
+        list01.add(flightCapacity1);
+        list01.add(flightCapacity2);
+        list01.add(flightCapacity3);
+
+        //Lambda expression using predicate interface,with accept one object parameter and returns boolean
+        System.out.println("Lambda expression implementation using Predicate Interface");
+        System.out.println("==============================================================");
+        for (FlightCapacity ft : list01) {
+            Predicate<FlightCapacity> pr = e -> (e.capacity > 300);
+            System.out.println("Capacity of" + " " + ft.getFlightCode() + " " + "is greater than 300:" + pr.test(ft));
+
+        }
         Map<FlightCapacity, String> map = new HashMap();
         map.put(flightCapacity, "Russian Airlines");
         map.put(flightCapacity1, "Qatar Airlines");
@@ -123,20 +155,37 @@ public class AirportSystem {
         //Implementing print linklist
         linkedList2.printList();
         System.out.println();
-
+        //Lambda expression
         logger.info("HashSet");
-        FlightBoard flightBoard = new FlightBoard("Russina Airlines", "SU765", "5:30", "Moscow", "20A", "On Time");
+        FlightBoard flightBoard = new FlightBoard("Russian Airlines", "SU765", "5:30", "Moscow", "20A", "On Time");
         FlightBoard flightBoard1 = new FlightBoard("Qatar Airlines", "QTR01", "15:00", "Doha", "10B", "On Time");
         FlightBoard flightBoard2 = new FlightBoard("Hawaiian Airlines", "HA345", "15:30", "Hawaii", "20A", "On Time");
-        FlightBoard flightBoard3 = new FlightBoard("Japan Airlines", "JL890", "13:00", "Tokyo", "21A", "delay 15 minutes");
-        FlightBoard flightBoard4 = new FlightBoard("Japan Airlines", "JL890", "13:00", "Tokyo", "21A", "delay 15 minutes");
+        FlightBoard flightBoard3 = new FlightBoard("Japan Airlines", "JL890", "13:00", "Tokyo", "21A", "delay");
+        FlightBoard flightBoard4 = new FlightBoard("Japan Airlines", "JL890", "13:00", "Tokyo", "21A", "delay");
         flightBoard.displayFlightBoard();
         Set<FlightBoard> set = new HashSet<FlightBoard>();
         set.add(flightBoard);
         set.add(flightBoard1);
         set.add(flightBoard2);
         set.add(flightBoard3);
-        set.add(flightBoard4);//Adding duplicate values
+        set.add(flightBoard4);
+
+        //Lambda expression using Function interface,with accept one object parameter and returns a value
+        System.out.println("Lambda expression implementation using Function Interface");
+        System.out.println("==============================================================");
+        System.out.println();
+        Function<FlightBoard, String> fn1 = f -> {
+            if ((f.remarks).equalsIgnoreCase("delay"))
+                return "*Flight is delay.Sorry for the Inconvenience*";
+            else
+                return "*Flight is on time.Happy Journey*";
+        };
+        for (FlightBoard fb : set) {
+            System.out.println("Status of flight:" + fb.flightId + "------- " + fn1.apply(fb));
+
+        }
+
+        //Adding duplicate values
         logger.info("Duplicate records are not allowed in set");
         System.out.println(set);//Duplicate record is not allowed
         System.out.println();
@@ -154,7 +203,9 @@ public class AirportSystem {
         ticketReservation.bookSeat("A12", "Economy");
         ticketReservation.getPayment("5574656546", "USD", 1500);
         Passenger passenger = new Passenger("John Math", 100012, "QTR9898", "A12", "Economy");
-        Passenger passenger1 = new Passenger("John Math", 100012, "QTR9898", "A12", "Economy");
+        Passenger passenger1 = new Passenger("Jason Jim", 100002, "QTR9808", "A22", "Economy");
+
+
         System.out.println("Passenger Details");
         System.out.println("================");
         System.out.println(passenger);
@@ -188,6 +239,16 @@ public class AirportSystem {
         List<GroundEmployees> lt = new LinkedList<>();
         lt.add(groundEmployees);
         lt.add(groundEmployees1);
+        //Lambda expression using Function interface,with accept one parameter and returns a value
+        System.out.println("Custom Lambda expression implementation with generics");
+        System.out.println("====================================================");
+        System.out.println();
+        CustomFuncInterface<String, Integer> fn = n -> n.length();
+        for (GroundEmployees emp : lt) {
+            System.out.println("Length of employee name" + emp.getEmployeeName() + fn.action(emp.getEmployeeName()));
+
+
+        }
         groundEmployees.getEmployeeDetails();
         System.out.println(lt);
         GroundEmployees groundEmployees2 = new GroundEmployees("Teresa", "7800", "Security Department", "Senior", 45);
@@ -213,6 +274,8 @@ public class AirportSystem {
         AirEmployees airEmployees3 = new AirEmployees("John", "1461", "Cabin Crew", "Senior", 40);
         AirEmployees airEmployees4 = new AirEmployees("Luke", "1459", "Cabin Crew", "Senior", 40);
         AirEmployees airEmployees5 = new AirEmployees("Luke", "1459", "Cabin Crew", "Senior", 40);
+
+
         airEmployees0.getEmployeeDetails();
         List<AirEmployees> list1 = new ArrayList<AirEmployees>();
         list1.add(airEmployees0);
@@ -220,7 +283,19 @@ public class AirportSystem {
         list1.add(airEmployees2);
         list1.add(airEmployees3);
         list1.add(airEmployees4);
-        list1.add(airEmployees5);//duplicate record added to the list
+        list1.add(airEmployees5);
+
+        //Custom lambda function to update the employee id
+        System.out.println("Custom Lambda expression implementation with generics");
+        System.out.println("====================================================");
+        CustomFuncInterface<AirEmployees, String> se = o1 -> {
+            String label = "AE";
+            String newId = label.concat(o1.getEmployeeId());
+            return newId;
+        };
+        for (AirEmployees ae : list1) {
+            System.out.println("Updated Employee Id of" + " " + ae.getEmployeeName() + " " + se.action(ae));
+        }
         logger.info("Duplicate records are accepted in the list");
         System.out.println(list1);//duplicate records are allowed
         logger.info("Printing record based on list index");
