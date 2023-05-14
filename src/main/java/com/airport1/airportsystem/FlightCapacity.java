@@ -1,6 +1,8 @@
 package com.airport1.airportsystem;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.function.Predicate;
 
 public class FlightCapacity {
     public String flightCode;
@@ -31,6 +33,7 @@ public class FlightCapacity {
         System.out.println("\nFlight Capacity");
         System.out.println("================");
     }
+
 
     @Override
     public String toString() {

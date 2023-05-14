@@ -1,5 +1,6 @@
 package com.airport1.airportsystem;
 
+import java.util.List;
 import java.util.Objects;
 
 import com.airport2.airportsystem.Employees;
@@ -11,13 +12,15 @@ public class AirEmployees extends Employees implements Salary, Bonus {
     private String designation;
     private double hourlyRate;
 
-    AirEmployees(String employeeName, String employeeId, String department,
+
+   public AirEmployees(String employeeName, String employeeId, String department,
                  String designation, double hourlyRate) {
         super(employeeName, employeeId);
         this.department = department;
         this.designation = designation;
         this.hourlyRate = hourlyRate;
     }
+
 
     public double getHourlyRate() {
         return hourlyRate;
@@ -29,6 +32,12 @@ public class AirEmployees extends Employees implements Salary, Bonus {
 
     public String getDepartment() {
         return department;
+    }
+
+
+    public void sortEmployee(List<String> unsortedList) {
+        System.out.println("list of  employees after sorting:");
+        unsortedList.stream().sorted().forEach(System.out::println);
     }
 
     //Abstract method from parent class is implemented

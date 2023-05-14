@@ -16,6 +16,7 @@ import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 
 //Class with main() which will instantiate objects of implemented classes
@@ -24,6 +25,7 @@ import java.util.function.Predicate;
 //Custom exceptions executed
 //Used Lambda expression with Functional Interface,Consumer Interface,Predicate Interface
 //Custom lambda expression used
+//Collection streaming used with terminal and non-terminal operations.
 
 public class AirportSystem {
     private static final Logger logger = LogManager.getLogger(AirportSystem.class);
@@ -42,21 +44,25 @@ public class AirportSystem {
 
         //Lambda expression using Consumer interface,with one parameter and no return value
         System.out.println("Lambda expression implementation using Consumer Interface");
-        System.out.println("==============================================================");
+        System.out.println("============================================================");
         Consumer<String> c = s -> System.out.println(s);
         c.accept("ATC Signals");
         c.accept("===================");
+
         //enums with fields and methods
         GroundSignal signal = GroundSignal.STEADY_GREEN;
         System.out.println("Message for flights in ground:" + signal.getGroundSignal());
         AirSignal signal1 = AirSignal.FLASHING_GREEN;
         System.out.println("Message for flights in Air:");
         signal1.getMessage();
+        GroundSignal groundSignal=GroundSignal.getByValue("Cleared for takeoff");
+        System.out.println(groundSignal);
 
         List<String> internationalFlight = new ArrayList<>();
         internationalFlight.add("Qatar Airlines:QR123,QR788,QR678");
         internationalFlight.add("Russian Airlines:SU567,SU789");
         internationalFlight.add("Air Canada:AC123,AC324");
+        System.out.println();
         Airport airport = new InternationalAirport("Los Angeles International Airport", "Los Angeles", internationalFlight);
         //This is an example for dynamic binding.Type of the object is determined at run time
         airport.getAirportDetails();
@@ -73,6 +79,7 @@ public class AirportSystem {
         airport2.displayInformation();
         AirLine al = new AirLine();
         al.getAirportDetails();
+        System.out.println();
         AirLine.getAirlineDetails();
         //Calling static final method from main class without object
         AirLine.displayAirlines();
@@ -87,20 +94,21 @@ public class AirportSystem {
         treeMap.put("CM", 4);
         treeMap.put("DL", 6);
         treeMap.put("EK", 4);
-
+        System.out.println(treeMap);
+        System.out.println("Number of flights for AM:" + treeMap.get("AM"));
+        treeMap.remove("AC");
+        System.out.println();
+        System.out.println("TreeMap after removing values of AC");
+        System.out.println(treeMap);
+        System.out.println();
+        logger.info("HashMap");
+        System.out.println();
         //Lambda expression using predicate interface,with accept one parameter and returns boolean
         System.out.println("Lambda expression implementation using Predicate Interface");
         System.out.println("==============================================================");
         Predicate<Integer> length = (i) -> (i > 5);
         c.accept("Number of flights available for CX(Cathay Pacific) is greater than 5:" + length.test(treeMap.get("CX")));
-        //Treemap will always display the entries in sorted order
-        System.out.println(treeMap);
-        System.out.println("Number of flights for AM:" + treeMap.get("AM"));
-        treeMap.remove("AC");
-        System.out.println("TreeMap after removing values of AC");
-        System.out.println(treeMap);
-        System.out.println();
-        logger.info("HashMap");
+
         FlightCapacity flightCapacity = new FlightCapacity("SU765", 245);
         FlightCapacity flightCapacity1 = new FlightCapacity("QTR01", 350);
         FlightCapacity flightCapacity2 = new FlightCapacity("HA345", 210);
@@ -110,6 +118,7 @@ public class AirportSystem {
         list01.add(flightCapacity1);
         list01.add(flightCapacity2);
         list01.add(flightCapacity3);
+        System.out.println();
 
         //Lambda expression using predicate interface,with accept one object parameter and returns boolean
         System.out.println("Lambda expression implementation using Predicate Interface");
@@ -117,7 +126,6 @@ public class AirportSystem {
         for (FlightCapacity ft : list01) {
             Predicate<FlightCapacity> pr = e -> (e.capacity > 300);
             System.out.println("Capacity of" + " " + ft.getFlightCode() + " " + "is greater than 300:" + pr.test(ft));
-
         }
         Map<FlightCapacity, String> map = new HashMap();
         map.put(flightCapacity, "Russian Airlines");
@@ -128,6 +136,7 @@ public class AirportSystem {
         for (Map.Entry<FlightCapacity, String> entry : map.entrySet()) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
+        System.out.println();
         System.out.println("RunWay Details");
         System.out.println("===============");
         logger.info("Custom linked list Implementation");
@@ -155,7 +164,6 @@ public class AirportSystem {
         //Implementing print linklist
         linkedList2.printList();
         System.out.println();
-        //Lambda expression
         logger.info("HashSet");
         FlightBoard flightBoard = new FlightBoard("Russian Airlines", "SU765", "5:30", "Moscow", "20A", "On Time");
         FlightBoard flightBoard1 = new FlightBoard("Qatar Airlines", "QTR01", "15:00", "Doha", "10B", "On Time");
@@ -169,6 +177,15 @@ public class AirportSystem {
         set.add(flightBoard2);
         set.add(flightBoard3);
         set.add(flightBoard4);
+        //Adding duplicate values
+        logger.info("Duplicate records are not allowed in set");
+        System.out.println(set);//Duplicate record is not allowed
+        System.out.println();
+        //Stream using terminal method and non-terminal operation
+        System.out.println("Converted airline name  in to capital using terminal method from stream");
+        System.out.println("=======================================================================");
+        System.out.println(flightBoard.getAirlineName(set));
+        System.out.println();
 
         //Lambda expression using Function interface,with accept one object parameter and returns a value
         System.out.println("Lambda expression implementation using Function Interface");
@@ -185,9 +202,6 @@ public class AirportSystem {
 
         }
 
-        //Adding duplicate values
-        logger.info("Duplicate records are not allowed in set");
-        System.out.println(set);//Duplicate record is not allowed
         System.out.println();
         TicketReservation ticketReservation = new TicketReservation();
         int num1 = ticketReservation.getCustomerDetails("John Math", "156 N street", 9087990, 999999999);
@@ -202,16 +216,25 @@ public class AirportSystem {
         ticketReservation.getFlightDetails("QTR01", "LAX", "DOH", "Apr 20,3:00PM", "Apr 21,10:00PM");
         ticketReservation.bookSeat("A12", "Economy");
         ticketReservation.getPayment("5574656546", "USD", 1500);
+        System.out.println();
         Passenger passenger = new Passenger("John Math", 100012, "QTR9898", "A12", "Economy");
-        Passenger passenger1 = new Passenger("Jason Jim", 100002, "QTR9808", "A22", "Economy");
-
-
+        Passenger passenger1 = new Passenger("Jason Jim", 100002, "QTR9808", "A22", "Business");
+        List<Passenger> passgnr = new ArrayList<>();
+        passgnr.add(passenger);
+        passgnr.add(passenger1);
+        System.out.println();
+        //Used filter in stream
+        System.out.println("Filter the employees with classType using filter and stream");
+        System.out.println("=============================================================");
+        System.out.println(passenger.checkClassType(passgnr));
+        System.out.println();
         System.out.println("Passenger Details");
         System.out.println("================");
         System.out.println(passenger);
         System.out.println("Comparing two passenger objects psg,psg1:True or False?" + passenger.equals(passenger1));
         System.out.println(passenger.hashCode());
         System.out.println(passenger1.hashCode());
+        System.out.println();
         BoardingPass boardingPass = new BoardingPass("John Math", 100012, "QTR9898", "A12", "Economy");
         boardingPass.displayBoardingPass();
         boardingPass.getPassengerDetails();
@@ -234,18 +257,20 @@ public class AirportSystem {
             logger.error("Invalid luggage count");
             System.out.println(l);
         }
+        System.out.println();
         GroundEmployees groundEmployees = new GroundEmployees("John", "7856", "Enquiry Department", "Associate", 5);
         GroundEmployees groundEmployees1 = new GroundEmployees("Mathew", "7806", "Security Department", "Associate", 45);
         List<GroundEmployees> lt = new LinkedList<>();
         lt.add(groundEmployees);
         lt.add(groundEmployees1);
+        System.out.println();
         //Lambda expression using Function interface,with accept one parameter and returns a value
         System.out.println("Custom Lambda expression implementation with generics");
         System.out.println("====================================================");
         System.out.println();
         CustomFuncInterface<String, Integer> fn = n -> n.length();
         for (GroundEmployees emp : lt) {
-            System.out.println("Length of employee name" + emp.getEmployeeName() + fn.action(emp.getEmployeeName()));
+            System.out.println("Length of employee name" + "" + emp.getEmployeeName() + fn.action(emp.getEmployeeName()));
 
 
         }
@@ -268,14 +293,13 @@ public class AirportSystem {
         System.out.println(groundEmployees1.hashCode());
 
         logger.info("ArrayList");
+        System.out.println();
         AirEmployees airEmployees0 = new AirEmployees("Maria", "1458", "Cabin Crew", "Associate", 40);
         AirEmployees airEmployees1 = new AirEmployees("Anna", "1460", "Cabin Crew", "Associate", 20);
         AirEmployees airEmployees2 = new AirEmployees("Sara", "1457", "Cabin Crew", "Senior", 10);
         AirEmployees airEmployees3 = new AirEmployees("John", "1461", "Cabin Crew", "Senior", 40);
         AirEmployees airEmployees4 = new AirEmployees("Luke", "1459", "Cabin Crew", "Senior", 40);
         AirEmployees airEmployees5 = new AirEmployees("Luke", "1459", "Cabin Crew", "Senior", 40);
-
-
         airEmployees0.getEmployeeDetails();
         List<AirEmployees> list1 = new ArrayList<AirEmployees>();
         list1.add(airEmployees0);
@@ -284,6 +308,21 @@ public class AirportSystem {
         list1.add(airEmployees3);
         list1.add(airEmployees4);
         list1.add(airEmployees5);
+        System.out.println();
+        logger.info("Duplicate records are accepted in the list");
+        System.out.println(list1);//duplicate records are allowed
+        logger.info("Printing record based on list index");
+        System.out.println("Elements at index 3 is :" + list1.get(3));//printing record from index
+        System.out.println();
+        //Stream using terminal and non-terminal method
+        System.out.println("Using Map and Collect ,created a list of employee names from employee object list");
+        System.out.println("=======================================================================");
+        List<String> listEmp = list1.stream()
+                .map(p -> p.getEmployeeName())
+                .collect(Collectors.toList());
+        System.out.println("List of employees before sorting:" + listEmp);
+        airEmployees1.sortEmployee(listEmp);
+        System.out.println();
 
         //Custom lambda function to update the employee id
         System.out.println("Custom Lambda expression implementation with generics");
@@ -296,10 +335,6 @@ public class AirportSystem {
         for (AirEmployees ae : list1) {
             System.out.println("Updated Employee Id of" + " " + ae.getEmployeeName() + " " + se.action(ae));
         }
-        logger.info("Duplicate records are accepted in the list");
-        System.out.println(list1);//duplicate records are allowed
-        logger.info("Printing record based on list index");
-        System.out.println("Elements at index 3 is :" + list1.get(3));//printing record from index
         try {
             airEmployees0.checkSalary(airEmployees0.calculateSalary());
         } catch (SalaryException e) {

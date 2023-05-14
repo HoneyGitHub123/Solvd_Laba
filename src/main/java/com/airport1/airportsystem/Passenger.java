@@ -1,6 +1,9 @@
 package com.airport1.airportsystem;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 //Calling static method from main class without object
 public class Passenger {
@@ -25,11 +28,11 @@ public class Passenger {
 
 
     public void getPassengerDetails() {
-        System.out.print("Passenger Name:" +passengerName);
+        System.out.print("Passenger Name:" + passengerName);
         System.out.print("\tPassenger ID:" + passengerId);
-        System.out.println("\t\t\tTicket ID:" +ticketId);
+        System.out.println("\t\t\tTicket ID:" + ticketId);
         System.out.print("Seat Number:" + seatNo);
-        System.out.print("\t\t\t\tClass:" +classType);
+        System.out.print("\t\t\t\tClass:" + classType);
 
     }
 
@@ -51,6 +54,15 @@ public class Passenger {
 
     public void setClassType(String classType) {
         this.classType = classType;
+    }
+
+    public List<Passenger> checkClassType(List<Passenger> passengerList) {
+        List<Passenger> bl = passengerList.stream()
+                //non-terminal operation
+                .filter(p -> p.getClassType().equals("Economy"))
+                //terminal operation
+                .collect(Collectors.toList());
+        return bl;
     }
 
     @Override

@@ -1,6 +1,9 @@
 package com.airport1.airportsystem;
 
+import java.util.Collection;
+import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 public class FlightBoard {
 
@@ -18,6 +21,40 @@ public class FlightBoard {
         this.destination = destination;
         this.gateNumber = gateNumber;
         this.remarks = remarks;
+    }
+
+    public String getAirlineName() {
+        return airlineName;
+    }
+
+    public String getFlightId() {
+        return flightId;
+    }
+
+    public String getSchedule() {
+        return schedule;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public String getGateNumber() {
+        return gateNumber;
+    }
+
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
+    }
+
+
+    public List<String> getAirlineName(Collection<FlightBoard> set) {
+        List<String> list_01 = set.stream()
+                //Non-Terminal operation
+                .map(n -> (n.getAirlineName().toUpperCase()))
+                //Terminal operation
+                .collect(Collectors.toList());
+        return list_01;
     }
 
     public void displayFlightBoard() {
