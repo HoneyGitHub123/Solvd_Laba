@@ -4,15 +4,23 @@ import com.airport2.airportsystem.Airport;
 import com.enums.AirSignal;
 import com.enums.GroundSignal;
 import com.utils.AirportInfo;
+import connections.ConnectionPool;
 import exceptions.LuggageCountException;
 import exceptions.MinimumRateException;
 import exceptions.PassportNumberException;
 import exceptions.SalaryException;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import threads.AirportRunnable;
+import threads.AirportThread;
 
 import java.io.IOException;
+import java.sql.Connection;
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -32,6 +40,9 @@ public class AirportSystem {
     public static final String INPUT_FILE = "src/main/resources/inputMessage.txt";
     public static final String OUTPUT_FILE = "src/main/resources/outputMessage.txt";
 
+    public static final int POOL_SIZE = 5;
+    public static final int THREAD_POOL_SIZE = 7;
+
 
     //Example for static block
     static {
@@ -41,6 +52,42 @@ public class AirportSystem {
 
     public static void main(String[] args) throws IOException {
         AirportInfo.getUniqueWordsCount();
+
+        //Threads using Runnable Interface
+        AirportRunnable runnable1 = new AirportRunnable("LAX Airport");
+        AirportRunnable runnable2 = new AirportRunnable("Ontario Airport");
+        Thread airport01 = new Thread(runnable1);
+        Thread airport02 = new Thread(runnable2);
+        airport01.start();
+        airport02.start();
+
+        //Threads using Thread class
+        Thread airport3 = new AirportThread("Burbank Airport");
+        Thread airport4 = new AirportThread("Chino Airport");
+        airport3.start();
+        airport4.start();
+
+        ConnectionPool pool = ConnectionPool.getInstance(POOL_SIZE);
+
+        ExecutorService executor = Executors.newFixedThreadPool(THREAD_POOL_SIZE);
+
+        List<CompletableFuture<Connection>> futures = new ArrayList<>();
+
+        for (int i = 0; i < 7; i++) {
+            CompletableFuture<Connection> future = CompletableFuture.supplyAsync(pool::getConnection, executor);
+            futures.add(future);
+
+        }
+
+       // CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
+        futures.forEach(f -> {
+            try {
+                System.out.println("Obtained Connection:" + f.get());
+            } catch (InterruptedException | ExecutionException e) {
+                e.printStackTrace();
+            }
+        });
+
 
         //Lambda expression using Consumer interface,with one parameter and no return value
         System.out.println("Lambda expression implementation using Consumer Interface");
@@ -181,6 +228,7 @@ public class AirportSystem {
         logger.info("Duplicate records are not allowed in set");
         System.out.println(set);//Duplicate record is not allowed
         System.out.println();
+
         //Stream using terminal method and non-terminal operation
         System.out.println("Converted airline name  in to capital using terminal method from stream");
         System.out.println("=======================================================================");
@@ -223,6 +271,7 @@ public class AirportSystem {
         passgnr.add(passenger);
         passgnr.add(passenger1);
         System.out.println();
+
         //Used filter in stream
         System.out.println("Filter the employees with classType using filter and stream");
         System.out.println("=============================================================");
@@ -314,6 +363,7 @@ public class AirportSystem {
         logger.info("Printing record based on list index");
         System.out.println("Elements at index 3 is :" + list1.get(3));//printing record from index
         System.out.println();
+
         //Stream using terminal and non-terminal method
         System.out.println("Using Map and Collect ,created a list of employee names from employee object list");
         System.out.println("=======================================================================");
